@@ -1,3 +1,4 @@
+import {additionalStories} from './more-stories.js';
 export const lenses = [['all','Toutes les histoires','✳'],['politique','Politique','♜'],['guerres','Guerres','⚔'],['religion','Religion','⛩'],['culture','Culture','◈'],['arts','Arts','✿'],['cuisine','Cuisine','♨']];
 export const eras = [
  {name:'Nara',start:710,end:793,title:'Aux sources d’un empire',intro:'Une capitale se dessine. Le bouddhisme et les institutions venues du continent transforment l’archipel.',city:'Nara',lat:34.685,lon:135.805},
@@ -14,7 +15,7 @@ export const eras = [
 const topics = {
  politique:['Les lieux du pouvoir','Des institutions et des équilibres en mouvement'],guerres:['Conflits et transformations','Les affrontements qui ont changé l’archipel'],religion:['Le sacré au quotidien','Temples, croyances et chemins spirituels'],culture:['Une manière d’habiter le monde','Rituels, récits et vie quotidienne'],arts:['Le geste et la beauté','Des formes qui traversent les siècles'],cuisine:['Une histoire de saveurs','À la rencontre des tables japonaises']
 };
-export const stories = [
+const initialStories = [
  [0,'religion','Le grand Bouddha de Nara',752,'Nara',34.685,135.84,'Au Tōdai-ji, la consécration du grand Bouddha en 752 exprime le rôle du bouddhisme dans la protection de l’État. Le temple reste un témoin majeur de la capitale de Nara.','https://www.todaiji.or.jp/en/'],
  [1,'culture','Une voix venue de la cour',1008,'Kyoto',35.01,135.77,'Au début du XIe siècle, Murasaki Shikibu compose Le Dit du Genji. Ce récit explore les relations, les ambitions et la fragilité de la vie à la cour de Heian.','https://www.metmuseum.org/essays/heian-period-794-1185'],
  [2,'guerres','Face aux flottes mongoles',1281,'Baie de Hakata',33.6,130.4,'En 1274 puis en 1281, des forces de l’empire mongol tentent d’envahir le Japon. La résistance et les tempêtes contribuent à leur échec, tout en pesant sur le régime de Kamakura.','https://www.britannica.com/event/Mongol-invasions-of-Japan'],
@@ -31,4 +32,5 @@ export const stories = [
  [8,'guerres','Hiroshima, la mémoire pour horizon',1945,'Hiroshima',34.39,132.45,'Le 6 août 1945, une bombe atomique américaine dévaste Hiroshima. Le parc du Mémorial de la paix porte aujourd’hui la mémoire des victimes et un appel au désarmement nucléaire.','https://hpmmuseum.jp/?lang=eng'],
  [9,'arts','L’art prend le large',2010,'Naoshima',34.46,133.99,'Sur Naoshima et les îles voisines, musées et installations font dialoguer art contemporain, architecture et paysage. La première Triennale de Setouchi, en 2010, étend cette rencontre à l’échelle de la mer intérieure.','https://setouchi-artfest.jp/en/']
 ].map((s,i)=>({id:i,era:s[0],lens:s[1],title:s[2],year:s[3],city:s[4],lat:s[5],lon:s[6],text:s[7],source:s[8]}));
+export const stories = [...initialStories, ...additionalStories.map((s,i)=>({...s,id:initialStories.length+i}))];
 export {topics};
