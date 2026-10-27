@@ -95,3 +95,22 @@ test('All 145 narratives have attributed local illustrations with verified check
  const credits=await readFile(new URL('../public/images/CREDITS.md',import.meta.url),'utf8');
  for(const image of Object.values(storyImages))assert.ok(credits.includes(image.sha256.slice(0,20)));
 });
+
+test('Every era has a licensed local music recording with audited source and intact bytes',async()=>{
+ const {musicTracks}=await import('../src/music-manifest.js');
+ const {trackForEra}=await import('../src/music.js');
+ const {createHash}=await import('node:crypto');
+ assert.equal(musicTracks.length,5);
+ for(let era=0;era<eras.length;era++)assert.ok(trackForEra(era),`Music missing: ${eras[era].name}`);
+ const assigned=musicTracks.flatMap(t=>t.eras);assert.equal(new Set(assigned).size,assigned.length);
+ for(const track of musicTracks){
+  assert.match(track.src,/^\.\/audio\/[a-z-]+\.mp3$/);
+  const bytes=await readFile(new URL('../public/'+track.src,import.meta.url));
+  assert.equal(createHash('sha256').update(bytes).digest('hex'),track.sha256);
+  assert.ok(track.artist&&track.attribution&&track.recording&&track.context&&track.modifications);
+  assert.ok(track.duration>15&&track.duration<400);
+  assert.equal(new URL(track.sourcePage).hostname,'commons.wikimedia.org');
+  assert.ok(['CC BY','CC BY-SA','PD'].includes(track.licenseFamily));
+  if(track.licenseFamily!=='PD')assert.equal(new URL(track.licenseUrl).hostname,'creativecommons.org');
+ }
+});

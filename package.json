@@ -10,7 +10,8 @@
     "build:standalone": "node scripts/build-standalone.mjs",
     "test": "node --test tests/data.test.js",
     "test:e2e": "playwright test",
-    "images:research": "node scripts/research-images.mjs"
+    "images:research": "node scripts/research-images.mjs",
+    "music:research": "node scripts/research-music.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

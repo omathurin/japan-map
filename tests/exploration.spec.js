@@ -85,6 +85,10 @@ test('Standalone HTML works with all external requests blocked',async({page})=>{
  await expect(page.locator('[data-territory]')).toHaveCount(70);
  await expect(page.locator('#story .documentary-image')).toHaveAttribute('src',/^data:image\//);
  await page.locator('#story .documentary-image').evaluate(img=>img.decode());
+ await page.locator('#sound').click();
+ await expect(page.locator('#ambience-audio')).toHaveAttribute('src',/^data:audio\/mpeg;base64,/);
+ await expect.poll(()=>page.locator('#ambience-audio').evaluate(el=>el.currentTime)).toBeGreaterThan(.1);
+ await page.locator('#sound').click();
  await page.locator('[data-lens="cuisine"]').click();
  await expect(page.locator('#story h2')).toContainText('sushi');
  await page.locator('#political-jump').selectOption('1972');
@@ -175,4 +179,56 @@ test('Touch users can open and close image credits without hover',async({browser
  await expect(panel.locator('.image-attribution')).toContainText('Hokusai');
  const image=await figure.boundingBox(),overlay=await panel.boundingBox();expect(overlay.x).toBeGreaterThanOrEqual(image.x);expect(overlay.x+overlay.width).toBeLessThanOrEqual(image.x+image.width);expect(overlay.y+overlay.height).toBeLessThanOrEqual(image.y+image.height);
  await figure.locator('.image-info-close').tap();await expect(panel).toBeHidden();await context.close();
+});
+
+test('Real music is opt-in, follows eras, preserves playback within an era and exposes compact credits',async({page})=>{
+ const requests=[];page.on('request',r=>{if(/\/audio\/.*\.mp3/.test(r.url()))requests.push(r.url())});
+ await page.goto('/');
+ const audio=page.locator('#ambience-audio');
+ await expect(audio).not.toHaveAttribute('src',/.+/);
+ expect(requests).toEqual([]);
+ await page.locator('.music-info summary').click();
+ await expect(page.locator('#music-title')).toContainText('Sakura Sakura');
+ await expect(page.locator('#music-recording')).toContainText('2006');
+ await expect(page.locator('#music-credit a').first()).toHaveAttribute('href','https://creativecommons.org/licenses/by/3.0/');
+ await page.locator('#sound').click();
+ await expect(page.locator('#music-status')).toContainText('À l’écoute');
+ await expect.poll(()=>audio.evaluate(el=>el.currentTime)).toBeGreaterThan(.1);
+ expect(await audio.evaluate(el=>el.loop)).toBe(true);
+ await page.locator('#music-volume').evaluate(el=>{el.value=12;el.dispatchEvent(new Event('input',{bubbles:true}))});
+ expect(await audio.evaluate(el=>el.volume)).toBe(.12);
+ await goToYear(page,1840);
+ await expect(audio).toHaveAttribute('src',/koto\.mp3$/);
+ await goToYear(page,794);
+ await expect(page.locator('#music-title')).toContainText('gagaku');
+ await expect(page.locator('#music-status')).toContainText('À l’écoute');
+ await expect(audio).toHaveAttribute('src',/court\.mp3$/);
+ await expect.poll(()=>audio.evaluate(el=>el.currentTime)).toBeGreaterThan(.1);
+ for(const year of [1868,1912,1989]){
+  await goToYear(page,year);
+  await expect(page.locator('#music-status')).toContainText('À l’écoute');
+  expect(await audio.evaluate(el=>el.paused)).toBe(false);
+ }
+ await page.locator('#sound').click();
+ await expect(page.locator('#sound')).toHaveAttribute('aria-pressed','false');
+ expect(await audio.evaluate(el=>el.paused)).toBe(true);
+ const before=requests.length;await goToYear(page,710);
+ await expect(page.locator('#music-recording')).toContainText('2023');
+ expect(requests.length).toBe(before);
+ await page.keyboard.press('Escape');await expect(page.locator('.music-panel')).toBeHidden();
+});
+
+test('Unavailable music can be retried and switching rapidly cannot restart paused audio',async({page})=>{
+ await page.route('**/audio/koto.mp3',route=>route.abort());
+ await page.goto('/');await page.locator('.music-info summary').click();await page.locator('#sound').click();
+ await expect(page.locator('#music-status')).toContainText('indisponible');
+ await expect(page.locator('#sound')).toHaveAttribute('aria-pressed','false');
+ await page.unroute('**/audio/koto.mp3');await page.locator('#sound').click();
+ await expect(page.locator('#music-status')).toContainText('À l’écoute');
+ for(const year of [710,1868,1912,1989])await goToYear(page,year);
+ await page.locator('#sound').click();
+ await expect(page.locator('#sound')).toHaveAttribute('aria-pressed','false');
+ await expect.poll(()=>page.locator('#ambience-audio').evaluate(el=>el.paused)).toBe(true);
+ await page.waitForTimeout(300);
+ expect(await page.locator('#ambience-audio').evaluate(el=>el.paused)).toBe(true);
 });
