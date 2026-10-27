@@ -1,0 +1,650 @@
+{
+  "verifiedAt": "2026-10-27T12:26:06.808Z",
+  "method": "Curated Commons media; source rights and SHA1 checked; local MP3 audio-only transcodes.",
+  "sources": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 4672044,
+          "ns": 6,
+          "title": "File:Koto performance.ogg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2008-09-01T01:40:27Z",
+              "size": 563749,
+              "width": 0,
+              "height": 0,
+              "duration": 29.736,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Koto_performance.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Koto_performance.ogg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4672044",
+              "sha1": "34f41c29fc7ee3ecfb631d7f09d58dd61322f82d",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-09-01 01:40:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Koto performance",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Koto|Sakura Sakura|Self-published work|Sounds of Japan|Audio files of music of Japan",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A woman plays a 13-string Koto.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2006-05-24",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Torsodog\" title=\"User:Torsodog\">Torsodog</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "application/ogg"
+            }
+          ]
+        },
+        {
+          "pageid": 4722234,
+          "ns": 6,
+          "title": "File:Shikanotoone.ogg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2008-09-05T03:39:04Z",
+              "size": 3861081,
+              "width": 0,
+              "height": 0,
+              "duration": 375.08913832199545,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shikanotoone.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shikanotoone.ogg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4722234",
+              "sha1": "72540c7608db1b7452fa08f99bfbf63db7e0aea5",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-09-05 03:39:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shikanotoone",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Author died more than 100 years ago public domain images|Shakuhachi|Audio files of Japan|CC-PD-Mark|PD-Japan-audio|Audio files of music of Japan|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A <a href=\"https://en.wikipedia.org/wiki/honkyoku\" class=\"extiw\" title=\"w:honkyoku\">honkyoku</a> piece entitled <i>Shika no Tōne</i> played on a <a href=\"https://en.wikipedia.org/wiki/shakuhachi\" class=\"extiw\" title=\"w:shakuhachi\">shakuhachi</a>. Published as <a href=\"https://en.wikipedia.org/wiki/en:Victor_Talking_Machine_Company\" class=\"extiw\" title=\"w:en:Victor Talking Machine Company\">Victor</a> 13029.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1925 and 1937<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1925-00-00T00:00:00Z/9,P1326,+1937-00-00T00:00:00Z/9</div> (based on scroll label design)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://shakuhachi.komusou.jp/kinkoryuu/kinkoryuu.html\">http://shakuhachi.komusou.jp/kinkoryuu/kinkoryuu.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Araki Kodō III (1879–1935)",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "application/ogg"
+            }
+          ]
+        },
+        {
+          "pageid": 12001388,
+          "ns": 6,
+          "title": "File:Shamisenwithvocals 2006.ogg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2010-11-09T09:57:35Z",
+              "size": 466204,
+              "width": 0,
+              "height": 0,
+              "duration": 72.01959183673469,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Shamisenwithvocals_2006.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shamisenwithvocals_2006.ogg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12001388",
+              "sha1": "11334b2b3ba3800f5b1a39ed0d2a0023f4e31fde",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-11-09 09:57:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Shamisenwithvocals 2006",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Shamisen|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "It has been four years since I recorded this, and the equipment I was using then was not perfect. I just recently found this fragment of a recording I took at a cultural festival somewhere in Tokyo. I thought it would be a good reference point for anyone who hasn't heard a shamisen.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2006",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nesnad\" title=\"User:Nesnad\">Nesnad</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "application/ogg"
+            }
+          ]
+        },
+        {
+          "pageid": 40502675,
+          "ns": 6,
+          "title": "File:Kojonotsuki.ogg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2015-05-27T15:51:20Z",
+              "size": 493327,
+              "width": 0,
+              "height": 0,
+              "duration": 41.74367346938776,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kojonotsuki.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kojonotsuki.ogg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40502675",
+              "sha1": "e34279e58868d302788fca598153d4316223eeab",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-05-27 15:51:20",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Kojonotsuki",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Kōjō no Tsuki|Self-published work|Audio files of songs of Japan|Audio files of folk music|Koto music",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Traditional Japanese song \"<a href=\"https://en.wikipedia.org/wiki/K%C5%8Dj%C5%8D_no_Tsuki\" class=\"extiw\" title=\"en:Kōjō no Tsuki\">Kōjō no Tsuki</a>\".",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1997-09-13",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:ContributorQ\" title=\"User:ContributorQ\">ContributorQ</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "application/ogg"
+            }
+          ]
+        },
+        {
+          "pageid": 157125392,
+          "ns": 6,
+          "title": "File:宮内庁楽部秋季雅楽演奏会 千秋楽.webm",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2024-12-26T15:41:53Z",
+              "size": 5540622,
+              "width": 644,
+              "height": 360,
+              "duration": 20.066,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%E5%AE%AE%E5%86%85%E5%BA%81%E6%A5%BD%E9%83%A8%E7%A7%8B%E5%AD%A3%E9%9B%85%E6%A5%BD%E6%BC%94%E5%A5%8F%E4%BC%9A_%E5%8D%83%E7%A7%8B%E6%A5%BD.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%E5%AE%AE%E5%86%85%E5%BA%81%E6%A5%BD%E9%83%A8%E7%A7%8B%E5%AD%A3%E9%9B%85%E6%A5%BD%E6%BC%94%E5%A5%8F%E4%BC%9A_%E5%8D%83%E7%A7%8B%E6%A5%BD.webm",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157125392",
+              "sha1": "d2e0359c3a6815d920f768914b7e4ff35d9e2d3f",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-12-26 15:41:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "宮内庁楽部秋季雅楽演奏会 千秋楽",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GJSTU-2.0|Gagaku",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "宮内庁楽部秋季雅楽演奏会で演奏された千秋楽。",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-10-24",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.kunaicho.go.jp/about/gokomu/odemashi/activity/gagakuensoukai.html\">https://www.kunaicho.go.jp/about/gokomu/odemashi/activity/gagakuensoukai.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "宮内庁",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.kunaicho.go.jp/copyright/kiyaku.html\">Website of the Imperial Household Agency</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              },
+              "mime": "video/webm"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracks": [
+    {
+      "id": "court",
+      "file": "宮内庁楽部秋季雅楽演奏会 千秋楽.webm",
+      "title": "Senshūraku · gagaku de cour",
+      "eras": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "recording": "24 octobre 2023",
+      "context": "Musique de cour pour les périodes anciennes et médiévales : le gagaku se structure à la cour aux VIIIe–IXe siècles et traverse les siècles. Cet extrait de Senshūraku est une interprétation de 2023, pas un son enregistré à l’époque du curseur.",
+      "reference": "https://en.wikipedia.org/wiki/Gagaku",
+      "src": "./audio/court.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 241100,
+      "sha256": "3adaf8147d2bbf6e65b6fa1a61bd59b706b197a179e162d6f884b05210392821",
+      "duration": 20.064,
+      "artist": "宮内庁",
+      "attribution": "Website of the Imperial Household Agency",
+      "license": "CC BY 4.0",
+      "licenseFamily": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%AE%AE%E5%86%85%E5%BA%81%E6%A5%BD%E9%83%A8%E7%A7%8B%E5%AD%A3%E9%9B%85%E6%A5%BD%E6%BC%94%E5%A5%8F%E4%BC%9A_%E5%8D%83%E7%A7%8B%E6%A5%BD.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%E5%AE%AE%E5%86%85%E5%BA%81%E6%A5%BD%E9%83%A8%E7%A7%8B%E5%AD%A3%E9%9B%85%E6%A5%BD%E6%BC%94%E5%A5%8F%E4%BC%9A_%E5%8D%83%E7%A7%8B%E6%A5%BD.webm",
+      "sourceDate": "2023-10-24",
+      "sourceFileTimestamp": "2024-12-26T15:41:53Z",
+      "sourceFileSha1": "d2e0359c3a6815d920f768914b7e4ff35d9e2d3f",
+      "credit": "https://www.kunaicho.go.jp/about/gokomu/odemashi/activity/gagakuensoukai.html",
+      "copyright": "",
+      "restrictions": "",
+      "modifications": "Piste sonore extraite de la vidéo et transcodée en MP3 à 96 kbit/s ; aucune coupe ni ajout musical.",
+      "verifiedAt": "2026-10-27T12:26:00.714Z"
+    },
+    {
+      "id": "koto",
+      "file": "Koto performance.ogg",
+      "title": "Sakura Sakura · koto à treize cordes",
+      "eras": [
+        5
+      ],
+      "recording": "24 mai 2006",
+      "context": "Le koto évoque ici les arts musicaux d’Edo, période de développement de son répertoire. Sakura Sakura est identifié dans les catégories de la notice Commons ; l’enregistrement de 2006 illustre cette tradition, sans reconstituer une année précise.",
+      "reference": "https://en.wikipedia.org/wiki/Koto_(instrument)",
+      "src": "./audio/koto.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 357452,
+      "sha256": "fedc48ae0e30eb16389d90c0be37c90e400a6a4943a9d3ff46a8a16887e63981",
+      "duration": 29.76,
+      "artist": "Torsodog",
+      "attribution": "Torsodog",
+      "license": "CC BY 3.0",
+      "licenseFamily": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koto_performance.ogg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Koto_performance.ogg",
+      "sourceDate": "2006-05-24",
+      "sourceFileTimestamp": "2008-09-01T01:40:27Z",
+      "sourceFileSha1": "34f41c29fc7ee3ecfb631d7f09d58dd61322f82d",
+      "credit": "Own work",
+      "copyright": "",
+      "restrictions": "",
+      "modifications": "Transcodage en MP3 à 96 kbit/s ; aucune coupe ni ajout musical.",
+      "verifiedAt": "2026-10-27T12:26:01.219Z"
+    },
+    {
+      "id": "meiji",
+      "gainDb": 9,
+      "file": "Kojonotsuki.ogg",
+      "title": "Kōjō no Tsuki · mélodie de 1901",
+      "eras": [
+        6
+      ],
+      "recording": "13 septembre 1997",
+      "context": "Composée en 1901 par Rentarō Taki, Kōjō no Tsuki illustre la rencontre des formes japonaises et de l’enseignement musical occidental à l’époque Meiji. Cette interprétation au koto a été enregistrée en 1997.",
+      "reference": "https://en.wikipedia.org/wiki/K%C5%8Dj%C5%8D_no_Tsuki",
+      "src": "./audio/meiji.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 501595,
+      "sha256": "e730d4a9cf3d840a6a4da4c833aff735983bce1c27f1d084570bf461f78c7612",
+      "duration": 41.769796,
+      "artist": "ContributorQ",
+      "attribution": "ContributorQ",
+      "license": "CC BY-SA 4.0",
+      "licenseFamily": "CC BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kojonotsuki.ogg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kojonotsuki.ogg",
+      "sourceDate": "1997-09-13",
+      "sourceFileTimestamp": "2015-05-27T15:51:20Z",
+      "sourceFileSha1": "e34279e58868d302788fca598153d4316223eeab",
+      "credit": "Own work",
+      "copyright": "",
+      "restrictions": "",
+      "modifications": "Volume relevé de 9 dB. Transcodage en MP3 à 96 kbit/s ; aucune coupe ni ajout musical.",
+      "verifiedAt": "2026-10-27T12:26:02.088Z"
+    },
+    {
+      "id": "shakuhachi",
+      "file": "Shikanotoone.ogg",
+      "title": "Shika no Tōne · shakuhachi",
+      "eras": [
+        7,
+        8
+      ],
+      "recording": "entre 1925 et 1937, selon Commons",
+      "context": "Un honkyoku interprété par Araki Kodō III, conservé sur le disque Victor 13029. Cette archive sonore, datée entre 1925 et 1937 par la notice Commons, accompagne Taishō et Shōwa. Elle représente la continuité d’une tradition, pas toute la musique de ces périodes.",
+      "reference": "https://en.wikipedia.org/wiki/Honkyoku",
+      "src": "./audio/shakuhachi.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4501777,
+      "sha256": "ef14d64626886fb54dfc740627898cc8af52c13a384c98f80d5fc0b741677dce",
+      "duration": 375.118367,
+      "artist": "Araki Kodō III (1879–1935)",
+      "attribution": "Araki Kodō III (1879–1935)",
+      "license": "Domaine public (selon Commons)",
+      "licenseFamily": "PD",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shikanotoone.ogg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shikanotoone.ogg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shikanotoone.ogg",
+      "sourceDate": "between 1925 and 1937 (based on scroll label design)",
+      "sourceFileTimestamp": "2008-09-05T03:39:04Z",
+      "sourceFileSha1": "72540c7608db1b7452fa08f99bfbf63db7e0aea5",
+      "credit": "http://shakuhachi.komusou.jp/kinkoryuu/kinkoryuu.html",
+      "copyright": "",
+      "restrictions": "",
+      "modifications": "Transcodage en MP3 à 96 kbit/s ; aucune coupe ni ajout musical.",
+      "verifiedAt": "2026-10-27T12:26:05.892Z"
+    },
+    {
+      "id": "festival",
+      "file": "Shamisenwithvocals 2006.ogg",
+      "title": "Shamisen et chant · festival à Tokyo",
+      "eras": [
+        9
+      ],
+      "recording": "2006",
+      "context": "Capté lors d’un festival culturel à Tokyo en 2006, ce fragment au shamisen témoigne de la pratique vivante des musiques traditionnelles dans le Japon contemporain. La notice ne donne ni le titre de la pièce ni le nom des interprètes.",
+      "reference": "https://en.wikipedia.org/wiki/Shamisen",
+      "src": "./audio/festival.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 864906,
+      "sha256": "b722da38b6ad959d6731690f5d42c40c30f4d5a971698b783587e0e9c0757bd5",
+      "duration": 72.045714,
+      "artist": "Nesnad",
+      "attribution": "Nesnad",
+      "license": "CC BY 3.0",
+      "licenseFamily": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shamisenwithvocals_2006.ogg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Shamisenwithvocals_2006.ogg",
+      "sourceDate": "2006",
+      "sourceFileTimestamp": "2010-11-09T09:57:35Z",
+      "sourceFileSha1": "11334b2b3ba3800f5b1a39ed0d2a0023f4e31fde",
+      "credit": "Own work",
+      "copyright": "",
+      "restrictions": "",
+      "modifications": "Transcodage en MP3 à 96 kbit/s ; aucune coupe ni ajout musical.",
+      "verifiedAt": "2026-10-27T12:26:06.806Z"
+    }
+  ]
+}
