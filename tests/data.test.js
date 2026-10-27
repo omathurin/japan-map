@@ -53,3 +53,45 @@ test('Every narrative has a titled Wikipedia reading reference and every era has
   assert.equal(ref.publisher,'Wikipédia');assert.equal(ref.language,'en');
  }
 });
+
+test('Illustrations require complete, safe attribution and render untrusted metadata as text',async()=>{
+ const {validIllustration,illustrationMarkup}=await import('../src/illustrations.js');
+ const media={title:'Document de test',artist:'Auteur de test',license:'CC BY-SA 4.0',licenseFamily:'CC BY-SA',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',sourcePage:'https://commons.wikimedia.org/wiki/File:Test.png',src:'./images/test-asset.png',mime:'image/png',sha256:'a'.repeat(64),verifiedAt:'2026-10-27T00:00:00Z'};
+ assert.ok(validIllustration(media));
+ for(const change of [{artist:''},{license:''},{licenseFamily:'fair use'},{licenseUrl:'https://creativecommons.org/licenses/by/4.0/'},{sourcePage:'javascript:alert(1)'},{src:'https://unverified.example/test.png'},{src:'./images/../../private.png'},{sha256:'fake'}])assert.equal(validIllustration({...media,...change}),false);
+ assert.equal(illustrationMarkup(stories[0],{media:null}),'');
+ const markup=illustrationMarkup(stories[0],{media:{...media,artist:'Auteur <script>alert(1)</script>',description:'<img src=x onerror="alert(1)">',credit:'Institution propriétaire',copyright:'Notice de droits de test'}});
+ assert.ok(!markup.includes('<script>'));assert.ok(!markup.includes('<img src=x'));
+ assert.match(markup,/Auteur &lt;script&gt;/);assert.match(markup,/CC BY-SA 4.0/);assert.match(markup,/Institution propriétaire/);assert.match(markup,/Notice de droits de test/);
+});
+test('Rights selection rejects non-free, ambiguous and incompatible licences',async()=>{
+ const {licenceFor,rasterType,plainText}=await import('../scripts/image-rights.mjs');
+ const info=(label,url,copyrighted='True')=>({extmetadata:{LicenseShortName:{value:label},LicenseUrl:{value:url},Copyrighted:{value:copyrighted}}});
+ const source='https://commons.wikimedia.org/wiki/File:Test.png';
+ assert.equal(licenceFor(info('Fair use',''),source),null);
+ assert.equal(licenceFor(info('CC BY-NC 4.0','https://creativecommons.org/licenses/by-nc/4.0/'),source),null);
+ assert.equal(licenceFor(info('CC BY-SA 4.0','https://unverified.example/license'),source),null);
+ assert.equal(licenceFor(info('Public domain','','True'),source),null);
+ assert.equal(licenceFor(info('Public domain','','False'),source).licenseFamily,'PD');
+ assert.equal(licenceFor(info('CC0',''),source).licenseFamily,'CC0');
+ assert.equal(licenceFor(info('CC BY-SA 3.0','http://creativecommons.org/licenses/by-sa/3.0/de/'),source).licenseUrl,'https://creativecommons.org/licenses/by-sa/3.0/de/');
+ assert.equal(plainText('<a href="https://example.org">Auteur &amp; Musée</a>'),'Auteur & Musée');
+ assert.equal(rasterType(Buffer.from('<html>not an image</html>')),null);
+ assert.equal(rasterType(Buffer.from([137,80,78,71,13,10,26,10])).mime,'image/png');
+});
+test('All 145 narratives have attributed local illustrations with verified checksums',async()=>{
+ const {storyImages}=await import('../src/image-manifest.js');const {validIllustration}=await import('../src/illustrations.js');const {createHash}=await import('node:crypto');
+ assert.equal(Object.keys(storyImages).length,stories.length);
+ for(const[id,image]of Object.entries(storyImages)){
+  assert.ok(stories.some(s=>s.id===Number(id)));assert.ok(validIllustration(image));
+  const bytes=await readFile(new URL('../public/'+image.src,import.meta.url));
+  assert.equal(createHash('sha256').update(bytes).digest('hex'),image.sha256);
+ }
+ const report=JSON.parse(await readFile(new URL('../public/data/image-research.json',import.meta.url)));
+ assert.equal(report.records.length,stories.length);
+ assert.ok(report.records.every(r=>r.status&&stories.some(s=>s.id===r.storyId)));
+ assert.equal(report.summary.illustrated,Object.keys(storyImages).length);
+ assert.ok(report.records.every(r=>r.status==='included'));
+ const credits=await readFile(new URL('../public/images/CREDITS.md',import.meta.url),'utf8');
+ for(const image of Object.values(storyImages))assert.ok(credits.includes(image.sha256.slice(0,20)));
+});

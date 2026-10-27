@@ -6,6 +6,8 @@ Atlas historique interactif en français : **145 récits**, dix périodes, six l
 
 Site GitHub Pages : https://omathurin.github.io/japan-map/ (nécessite l’activation de Pages sur la branche `gh-pages`, dossier `/`).
 
+Les 145 récits disposent d’une illustration documentaire ou de contexte, avec leur auteur, leur licence et une fiche source.
+
 Pour jouer sans installation, téléchargez `Tabi.html` et ouvrez-le dans votre navigateur. Ce fichier autonome embarque les récits, les contours et les polices. Il fonctionne hors ligne ; les liens vers les sources nécessitent Internet.
 
 ## Explorer
@@ -71,4 +73,14 @@ Les résumés forment une introduction éditoriale, non une encyclopédie exhaus
 
 ## Publication GitHub Pages
 
-La branche `gh-pages` sert `Tabi.html` sous le nom `index.html`, avec `.nojekyll`. Après une modification, régénérez `Tabi.html`, testez-le hors ligne, puis mettez à jour cette branche sans écraser les autres fichiers. Les sources restent sur `main`. L’activation initiale de Pages s’effectue dans les paramètres du dépôt ; une mise à jour de branche ne prouve pas à elle seule que le déploiement public est terminé.
+La branche `gh-pages` sert le contenu de `dist/`, avec `.nojekyll`. Les images sont chargées séparément et les miniatures du carnet sont différées pour éviter de télécharger le fichier autonome entier au démarrage. Après une modification, reconstruisez et testez avant de mettre à jour cette branche sans écraser les autres fichiers. Les sources et le téléchargement autonome `Tabi.html` restent sur `main`. L’activation initiale de Pages s’effectue dans les paramètres du dépôt ; une mise à jour de branche ne prouve pas à elle seule que le déploiement public est terminé.
+
+## Illustrations et crédits
+
+Les **145 récits** sont illustrés, avec **142 fichiers uniques** conservés dans `public/images/`. Auteur, licence et fiche source apparaissent près de chaque image, dans la fiche et dans le carnet. Les dates du document et les notices de contexte distinguent les vues contemporaines, les copies anciennes, les représentations postérieures et les documents d’époque. Les illustrations ne sont pas systématiquement des représentations directes de l’événement à la date du curseur.
+
+Les métadonnées de droits proviennent de Wikimedia Commons : domaine public indiqué par la source, CC0, CC BY ou CC BY-SA. Les images non libres ou de droits non établis ne sont pas importées. Les licences des images sont indépendantes de celle du code. L’inventaire des crédits par fichier est disponible dans [public/images/CREDITS.md](public/images/CREDITS.md).
+
+`npm run images:research` recherche les illustrations des articles de référence, vérifie les notices Commons et télécharge les miniatures acceptées. Les choix éditoriaux sont dans `scripts/image-selections.json`. Les fichiers déjà vérifiés sont réutilisés ; les requêtes respectent un espacement et un délai en cas de limitation de débit. L’accès réseau aux APIs est nécessaire uniquement pour cette recherche, pas pour consulter l’application.
+
+La version autonome embarque toutes les images et leurs crédits. Détails de la méthode et des conditions de réutilisation : [public/data/IMAGE-SOURCES.md](public/data/IMAGE-SOURCES.md). Journal par récit : [public/data/image-research.json](public/data/image-research.json).

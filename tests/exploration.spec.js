@@ -52,7 +52,7 @@ test('Search crosses periods, opens a narrative, and timeline chooses a new date
  await page.goto('/');
  await page.locator('#search-stories').fill('Hiroshima');
  expect(await page.locator('.catalog-story').count()).toBeGreaterThanOrEqual(2);
- await page.locator('.catalog-story').filter({hasText:'mémoire pour horizon'}).locator('[data-open-story]').click();
+ await page.locator('.catalog-story').filter({hasText:'mémoire pour horizon'}).locator('.catalog-open').click();
  await expect(page.locator('#year')).toHaveText('1945');
  await expect(page.locator('#story h2')).toContainText('Hiroshima');
  await page.locator('#search-stories').fill('zzzintrouvable');
@@ -83,6 +83,8 @@ test('Standalone HTML works with all external requests blocked',async({page})=>{
  await page.route('**/*',r=>r.abort());
  await page.setContent(await readFile(new URL('../Tabi.html',import.meta.url),'utf8'));
  await expect(page.locator('[data-territory]')).toHaveCount(70);
+ await expect(page.locator('#story .documentary-image')).toHaveAttribute('src',/^data:image\//);
+ await page.locator('#story .documentary-image').evaluate(img=>img.decode());
  await page.locator('[data-lens="cuisine"]').click();
  await expect(page.locator('#story h2')).toContainText('sushi');
  await page.locator('#political-jump').selectOption('1972');
@@ -97,7 +99,7 @@ test('A new cultural story opens its topical reference and original sources rema
  const card=page.locator('.catalog-story').filter({hasText:'autre scène musicale'});
  await expect(card.locator('.catalog-reference')).toHaveAttribute('href','https://en.wikipedia.org/wiki/Takarazuka_Revue');
  await expect(card.locator('.catalog-reference')).toHaveAttribute('target','_blank');
- await card.locator('[data-open-story]').click();
+ await card.locator('.catalog-open').click();
  await expect(page.locator('#year')).toHaveText('1914');
  await expect(page.locator('#story h2')).toContainText('Takarazuka');
  await expect(page.locator('#story .read-more')).toHaveAttribute('href','https://en.wikipedia.org/wiki/Takarazuka_Revue');
@@ -105,4 +107,39 @@ test('A new cultural story opens its topical reference and original sources rema
  await page.locator('.brand').click();
  await expect(page.locator('#story .context-source')).toHaveAttribute('href','https://www.metmuseum.org/art/collection/search/45434');
  await expect(page.locator('#story .context-source')).toContainText('The Metropolitan Museum of Art');
+});
+
+test('Illustrations display source, author, licence and a readable failure state',async({page})=>{
+ // Synthetic fixture verifies UI only; it is never included as a claimed historical image.
+ const media={title:'Document de test',artist:'Auteur de test',license:'CC BY-SA 4.0',licenseFamily:'CC BY-SA',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',sourcePage:'https://commons.wikimedia.org/wiki/File:Test.png',src:'./images/test-asset.png',mime:'image/png',sha256:'a'.repeat(64),verifiedAt:'2026-10-27T00:00:00Z',description:'Description de test',copyright:'Notice de droits de test'};
+ await page.route('**/src/image-manifest.js*',route=>route.fulfill({contentType:'application/javascript',body:`export const storyImages = ${JSON.stringify({5:media})};`}));
+ await page.route('**/images/test-asset.png',route=>route.abort());
+ await page.goto('/');
+ await expect(page.locator('#story .image-attribution')).toContainText('Auteur de test');
+ await expect(page.locator('#story .image-attribution a')).toHaveAttribute('href',media.licenseUrl);
+ await expect(page.locator('#story .image-source')).toHaveAttribute('href',media.sourcePage);
+ await expect(page.locator('#story .image-failure')).toBeVisible();
+ await page.locator('#story .image-details summary').click();
+ await expect(page.locator('#story .image-details')).toContainText('Notice de droits de test');
+ await page.setViewportSize({width:390,height:844});
+ const card=await page.locator('#story').boundingBox();expect(card.x+card.width).toBeLessThanOrEqual(390);
+ await page.locator('#search-stories').fill('monde flottant');
+ await expect(page.locator('.catalog-story .image-attribution')).toContainText('Auteur de test');
+ await page.locator('.catalog-story .image-preview').click();
+ await expect(page.locator('#story h2')).toContainText('monde flottant');
+});
+
+
+test('Real local illustrations load for every story, with credits, under the configured site base path',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('./');
+ for(const year of eras){
+  await goToYear(page,year);await page.locator('[data-lens="all"]').click();
+  const count=await page.locator('.catalog-story').count();
+  await expect(page.locator('.catalog-story .documentary-image')).toHaveCount(count);
+  await expect(page.locator('.catalog-story .image-attribution')).toHaveCount(count);
+  const decoded=await page.locator('.documentary-image').evaluateAll(async images=>{
+   images.forEach(img=>img.loading='eager');return Promise.all(images.map(async img=>{await img.decode();return img.naturalWidth>0}));
+  });expect(decoded.every(Boolean)).toBe(true);
+ }
+ expect(errors).toEqual([]);
 });

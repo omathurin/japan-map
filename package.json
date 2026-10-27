@@ -9,10 +9,12 @@
     "preview": "vite preview --host 0.0.0.0",
     "build:standalone": "node scripts/build-standalone.mjs",
     "test": "node --test tests/data.test.js",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "images:research": "node scripts/research-images.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",
+    "undici": "^7.30.1",
     "vite": "^7.1.0"
   },
   "dependencies": {
