@@ -2,7 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 const root=resolve(import.meta.dirname,'..');
 const read=p=>readFile(resolve(root,p),'utf8');
-const modules=['more-stories','data','politics','political-map','main'];
+const modules=['references','cultural-stories','more-stories','data','politics','political-map','main'];
 let code=(await Promise.all(modules.map(m=>read(`src/${m}.js`)))).map(s=>s.replace(/^import .*?;\n/gm,'').replace(/^export \{[^}]+\};?\s*$/gm,'').replace(/\bexport (const|function)\b/g,'$1')).join('\n');
 const provinces=await read('public/data/provinces-1868.geojson');
 const prefectures=await read('public/data/prefectures.geojson');

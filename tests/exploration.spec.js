@@ -7,14 +7,16 @@ async function goToYear(page,year){await page.locator('#time').evaluate((el,year
 test('All sixty era/theme combinations show narratives and clickable hotspots',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');
- await expect(page.locator('.marker')).toHaveCount(15);
+ await expect(page.locator('.marker')).toHaveCount(19);
  for(const year of eras){
   await goToYear(page,year);
   for(const lens of lenses){
    await page.locator(`[data-lens="${lens}"]`).click();
    expect(await page.locator('.marker').count(),`${year} ${lens}`).toBeGreaterThan(0);
    await expect(page.locator('#story h2')).not.toBeEmpty();
-   await expect(page.locator('#story a.read-more')).toHaveAttribute('href',/^https:/);
+   await expect(page.locator('#story a.read-more')).toHaveAttribute('href',/^https:\/\/en\.wikipedia\.org\/wiki\//);
+   await expect(page.locator('#story .reference-meta')).toContainText('article en anglais');
+   expect(await page.locator('.catalog-reference').count()).toBe(await page.locator('.catalog-story').count());
   }
  }
  expect(errors).toEqual([]);
@@ -50,7 +52,7 @@ test('Search crosses periods, opens a narrative, and timeline chooses a new date
  await page.goto('/');
  await page.locator('#search-stories').fill('Hiroshima');
  expect(await page.locator('.catalog-story').count()).toBeGreaterThanOrEqual(2);
- await page.locator('.catalog-story').filter({hasText:'mémoire pour horizon'}).click();
+ await page.locator('.catalog-story').filter({hasText:'mémoire pour horizon'}).locator('[data-open-story]').click();
  await expect(page.locator('#year')).toHaveText('1945');
  await expect(page.locator('#story h2')).toContainText('Hiroshima');
  await page.locator('#search-stories').fill('zzzintrouvable');
@@ -58,7 +60,7 @@ test('Search crosses periods, opens a narrative, and timeline chooses a new date
  await page.locator('#search-stories').fill('');
  await page.locator('[data-lens="all"]').click();
  await goToYear(page,1603);
- await expect(page.locator('#story h2')).toContainText('shogunat Tokugawa');
+ await expect(page.locator('#story .story-meta')).toContainText('1603');
  await goToYear(page,1831);
  await expect(page.locator('#story h2')).toContainText('monde flottant');
  await page.locator('#play').click();await expect(page.locator('#year')).not.toHaveText('1831');await page.locator('#play').click();
@@ -86,4 +88,21 @@ test('Standalone HTML works with all external requests blocked',async({page})=>{
  await page.locator('#political-jump').selectOption('1972');
  await expect(page.locator('[data-territory]')).toHaveCount(47);
  expect(errors).toEqual([]);
+});
+
+
+test('A new cultural story opens its topical reference and original sources remain available',async({page})=>{
+ await page.goto('/');
+ await page.locator('#search-stories').fill('Takarazuka');
+ const card=page.locator('.catalog-story').filter({hasText:'autre scène musicale'});
+ await expect(card.locator('.catalog-reference')).toHaveAttribute('href','https://en.wikipedia.org/wiki/Takarazuka_Revue');
+ await expect(card.locator('.catalog-reference')).toHaveAttribute('target','_blank');
+ await card.locator('[data-open-story]').click();
+ await expect(page.locator('#year')).toHaveText('1914');
+ await expect(page.locator('#story h2')).toContainText('Takarazuka');
+ await expect(page.locator('#story .read-more')).toHaveAttribute('href','https://en.wikipedia.org/wiki/Takarazuka_Revue');
+ await expect(page.locator('#story .read-more')).toContainText('La revue Takarazuka');
+ await page.locator('.brand').click();
+ await expect(page.locator('#story .context-source')).toHaveAttribute('href','https://www.metmuseum.org/art/collection/search/45434');
+ await expect(page.locator('#story .context-source')).toContainText('The Metropolitan Museum of Art');
 });

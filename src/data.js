@@ -1,3 +1,5 @@
+import {culturalStories} from './cultural-stories.js';
+import {storyReference,wikipediaReference} from './references.js';
 import {additionalStories} from './more-stories.js';
 export const lenses = [['all','Toutes les histoires','✳'],['politique','Politique','♜'],['guerres','Guerres','⚔'],['religion','Religion','⛩'],['culture','Culture','◈'],['arts','Arts','✿'],['cuisine','Cuisine','♨']];
 export const eras = [
@@ -32,5 +34,9 @@ const initialStories = [
  [8,'guerres','Hiroshima, la mémoire pour horizon',1945,'Hiroshima',34.39,132.45,'Le 6 août 1945, une bombe atomique américaine dévaste Hiroshima. Le parc du Mémorial de la paix porte aujourd’hui la mémoire des victimes et un appel au désarmement nucléaire.','https://hpmmuseum.jp/?lang=eng'],
  [9,'arts','L’art prend le large',2010,'Naoshima',34.46,133.99,'Sur Naoshima et les îles voisines, musées et installations font dialoguer art contemporain, architecture et paysage. La première Triennale de Setouchi, en 2010, étend cette rencontre à l’échelle de la mer intérieure.','https://setouchi-artfest.jp/en/']
 ].map((s,i)=>({id:i,era:s[0],lens:s[1],title:s[2],year:s[3],city:s[4],lat:s[5],lon:s[6],text:s[7],source:s[8]}));
-export const stories = [...initialStories, ...additionalStories.map((s,i)=>({...s,id:initialStories.length+i}))];
+const historicalStories = [...initialStories, ...additionalStories.map((s,i)=>({...s,id:initialStories.length+i}))];
+export const stories = [
+ ...historicalStories.map(s=>({...s,reference:storyReference(s.id)})),
+ ...culturalStories.map((s,i)=>{const reference=wikipediaReference(s.article,s.referenceTitle);return{...s,id:historicalStories.length+i,source:reference.url,reference}})
+];
 export {topics};

@@ -40,3 +40,16 @@ test('Cartographic assets contain valid historical and contemporary areas',async
   }
  }
 });
+
+
+test('Every narrative has a titled Wikipedia reading reference and every era has expanded cultural coverage',()=>{
+ assert.ok(stories.length>=145);
+ for(let era=0;era<eras.length;era++)assert.ok(stories.filter(s=>s.era===era&&s.lens==='culture').length>=5,`Cultural coverage: ${eras[era].name}`);
+ for(const s of stories){
+  const ref=s.reference;assert.ok(ref,`No reference: ${s.title}`);
+  assert.ok(ref.title.length>3,`Untitled reference: ${s.title}`);
+  const url=new URL(ref.url);assert.equal(url.protocol,'https:');assert.equal(url.hostname,'en.wikipedia.org');
+  assert.ok(url.pathname.startsWith('/wiki/')&&url.pathname.length>6);
+  assert.equal(ref.publisher,'Wikipédia');assert.equal(ref.language,'en');
+ }
+});

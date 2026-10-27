@@ -28,3 +28,5 @@ https://github.com/johan/world.geo.json/blob/master/countries/JPN.geo.json
 ## Interpretation
 
 Political regime dates are annual navigation anchors. Changes that happened within a year are explained in accompanying prose. Textual contexts: Encyclopaedia Britannica, Japan / History; UNESCO heritage entries linked in story cards. All historical narrative summaries and contextual notes are original French editorial text, not copied source passages. Individual links may provide broader context than a single dated detail.
+
+Every narrative now also has a topical Wikipedia further-reading article, displayed with a French label and its English article language. The 40 cultural additions have original French summaries. Previously supplied contextual sources remain available as secondary references. These reading links do not constitute a claim that every individual detail was verified against the current article revision.

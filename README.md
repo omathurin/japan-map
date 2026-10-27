@@ -1,6 +1,6 @@
 # Tabi — Le Japon à travers le temps
 
-Atlas historique interactif en français : **105 récits**, dix périodes, six lentilles et une carte politique contextualisée de 710 à 2025. JavaScript, SVG et Vite.
+Atlas historique interactif en français : **145 récits**, dix périodes, six lentilles et une carte politique contextualisée de 710 à 2025. JavaScript, SVG et Vite.
 
 ## Essayer
 
@@ -15,7 +15,7 @@ Pour jouer sans installation, téléchargez `Tabi.html` et ouvrez-le dans votre 
 - Les points rouges ouvrent les récits ; les losanges repèrent des sièges de pouvoir. Les points proches sont légèrement décalés avec un trait de rappel pour rester accessibles.
 - Cliquez sur une province/préfecture pour lire son nom et son contexte, ou utilisez Tab puis Entrée/Espace.
 - Le menu « Un tournant politique » rejoint directement un changement de régime. La couche politique peut être masquée.
-- Le carnet historique affiche les récits de la sélection. La recherche porte sur les 105 récits, toutes époques et lentilles confondues ; ouvrir un résultat rejoint sa période et sa lentille.
+- Le carnet historique affiche les récits de la sélection. La recherche porte sur les 145 récits, toutes époques et lentilles confondues ; ouvrir un résultat rejoint sa période et sa lentille.
 - Zoom, recentrage, découverte aléatoire et ambiance synthétique optionnelle sont disponibles. Interface mobile et tablette.
 
 ## Ce que montre la carte politique
@@ -59,15 +59,15 @@ Pour utiliser un Chromium déjà installé :
 TABI_CHROMIUM_PATH=/usr/bin/chromium npm run test:e2e
 ```
 
-Les tests couvrent les 60 combinaisons époque/thème, les changements politiques, la sélection au clavier et à la souris des territoires, la recherche transversale, les fiches par défaut, la lecture automatique, le zoom, le son, les formats mobile/tablette et le fichier autonome sans réseau.
+Les tests vérifient la présence de références pour les 145 récits, au moins cinq faits culturels par époque, puis les 60 combinaisons époque/thème, les changements politiques, la sélection au clavier et à la souris des territoires, la recherche transversale, les fiches par défaut, la lecture automatique, le zoom, le son, les formats mobile/tablette et le fichier autonome sans réseau.
 
 ## Ajouter des contenus
 
-Les récits initiaux sont dans `src/data.js`, les 90 ajouts dans `src/more-stories.js`. Chaque récit possède une date repère, un lieu, un thème, un texte original et une source de contexte. Les repères politiques sont dans `src/politics.js` ; leur affichage est dans `src/political-map.js`. Après modification, relancez les tests et la compilation pour actualiser aussi le fichier autonome.
+Les récits initiaux sont dans `src/data.js`, les 90 ajouts historiques dans `src/more-stories.js` et les 40 nouveaux faits culturels dans `src/cultural-stories.js`. Les articles de référence des 105 récits précédents sont associés par identifiant dans `src/references.js`. Chaque récit possède une date repère, un lieu, un thème, un texte original et une source de contexte. Les repères politiques sont dans `src/politics.js` ; leur affichage est dans `src/political-map.js`. Après modification, relancez les tests et la compilation pour actualiser aussi le fichier autonome.
 
 Les dates approximatives sont signalées dans les textes. Une fiche associée à une époque peut être postérieure à l’année du curseur : l’interface le précise. Le découpage annuel des ères impériales est simplifié ; notamment, les transitions de 1912, 1926 et 1989 se produisent en cours d’année. La vue contemporaine s’arrête en 2025.
 
-Les résumés forment une introduction éditoriale, non une encyclopédie exhaustive. Chaque fiche lie une référence, parfois générale sur la période. Les illustrations CSS sont évocatrices et le son synthétique n’est pas une reconstitution musicale historique. Une révision éditoriale spécialisée reste recommandée pour un usage éducatif publié.
+Les résumés forment une introduction éditoriale, non une encyclopédie exhaustive. Chaque fiche et chaque carte du carnet proposent un article Wikipédia consacré au sujet, avec un titre en français et la langue de l’article (anglais). Les liens d’origine sont conservés comme références de contexte supplémentaires lorsqu’ils diffèrent. Les articles servent à approfondir ; ils ne sont pas présentés comme une preuve de chaque détail du résumé. Les illustrations CSS sont évocatrices et le son synthétique n’est pas une reconstitution musicale historique. Une révision éditoriale spécialisée reste recommandée pour un usage éducatif publié.
 
 ## Publication GitHub Pages
 
