@@ -1,6 +1,7 @@
+import {eras} from './data.js';
 import {musicTracks} from './music-manifest.js';
 import {escapeMarkup} from './illustrations.js';
-export function trackForEra(era){return musicTracks.find(track=>track.eras.includes(era))}
+export function trackForEra(era){const oldIndex=['Nara','Heian','Kamakura','Muromachi','Azuchi–Momoyama','Edo','Meiji','Taishō','Shōwa','Contemporain'].indexOf(eras[era]?.name);return oldIndex<0?undefined:musicTracks.find(track=>track.eras.includes(oldIndex))}
 export function installMusic(root){
  const button=root.querySelector('#sound');
  const host=document.createElement('div');host.className='sound-controls';button.before(host);host.append(button);
@@ -9,7 +10,7 @@ export function installMusic(root){
  const status=root.querySelector('#music-status');
  let current,loaded,enabled=false,revision=0,switchTimer;
  const showStatus=message=>{status.textContent=message};
- function reflect(){button.setAttribute('aria-pressed',String(enabled));button.querySelector('span').textContent=enabled?'Couper l’ambiance':'Ambiance sonore'}
+ function reflect(){button.setAttribute('aria-pressed',String(Boolean(enabled&&current)));button.querySelector('span').textContent=enabled?'Couper l’ambiance':'Ambiance sonore'}
  function failed(){loaded=null;enabled=false;reflect();audio.pause();showStatus('Lecture indisponible. Cliquez sur « Ambiance sonore » pour réessayer.');}
  async function play(){
   if(!enabled||!current)return;
@@ -29,7 +30,8 @@ export function installMusic(root){
  root.addEventListener('pointerdown',event=>{if(!host.contains(event.target))details.open=false});
  root.addEventListener('keydown',event=>{if(event.key==='Escape'&&details.open){details.open=false;details.querySelector('summary').focus()}});
  return {setEra(era){
-  const next=trackForEra(era);if(!next||next.id===current?.id)return;
+  const next=trackForEra(era);if(next===current)return;clearTimeout(switchTimer);switchTimer=null;revision++;audio.pause();current=next;button.disabled=!next;reflect();
+  if(!next){root.querySelector('#music-title').textContent='Les sons des premières sociétés';showStatus('Aucune musique sélectionnée pour cette période.');root.querySelector('#music-recording').textContent='Les enregistrements disponibles ne documentent pas directement ces époques.';root.querySelector('#music-context').textContent='Le voyage continue en silence. L’ambiance choisie reprendra aux périodes documentées si vous l’aviez activée.';root.querySelector('#music-credit').textContent='';root.querySelector('#music-modifications').textContent='';root.querySelector('#music-reference').hidden=true;button.title='Aucun enregistrement sélectionné pour cette période';return;}root.querySelector('#music-reference').hidden=false;
   current=next;
   root.querySelector('#music-title').textContent=current.title;
   button.title=`${current.title} · ${current.recording}`;

@@ -8,6 +8,7 @@ test('The historical collection covers every era and theme with valid, sourced n
  assert.ok(stories.length>=100);
  assert.equal(new Set(stories.map(s=>s.id)).size,stories.length);
  for(let era=0;era<eras.length;era++)for(const [lens] of lenses.slice(1)){
+  if((era===0&&['religion','guerres'].includes(lens))||(era===1&&lens==='guerres'))continue;
   assert.ok(stories.some(s=>s.era===era&&s.lens===lens),`${eras[era].name}: missing ${lens}`);
  }
  for(const s of stories){
@@ -79,7 +80,7 @@ test('Rights selection rejects non-free, ambiguous and incompatible licences',as
  assert.equal(rasterType(Buffer.from('<html>not an image</html>')),null);
  assert.equal(rasterType(Buffer.from([137,80,78,71,13,10,26,10])).mime,'image/png');
 });
-test('All 145 narratives have attributed local illustrations with verified checksums',async()=>{
+test('All narratives have attributed local illustrations with verified checksums',async()=>{
  const {storyImages}=await import('../src/image-manifest.js');const {validIllustration}=await import('../src/illustrations.js');const {createHash}=await import('node:crypto');
  assert.equal(Object.keys(storyImages).length,stories.length);
  for(const[id,image]of Object.entries(storyImages)){
@@ -101,7 +102,7 @@ test('Every era has a licensed local music recording with audited source and int
  const {trackForEra}=await import('../src/music.js');
  const {createHash}=await import('node:crypto');
  assert.equal(musicTracks.length,5);
- for(let era=0;era<eras.length;era++)assert.ok(trackForEra(era),`Music missing: ${eras[era].name}`);
+ for(let era=0;era<eras.length;era++)if(eras[era].start>=710)assert.ok(trackForEra(era),`Music missing: ${eras[era].name}`);else assert.equal(trackForEra(era),undefined);
  const assigned=musicTracks.flatMap(t=>t.eras);assert.equal(new Set(assigned).size,assigned.length);
  for(const track of musicTracks){
   assert.match(track.src,/^\.\/audio\/[a-z-]+\.mp3$/);
@@ -113,4 +114,21 @@ test('Every era has a licensed local music recording with audited source and int
   assert.ok(['CC BY','CC BY-SA','PD'].includes(track.licenseFamily));
   if(track.licenseFamily!=='PD')assert.equal(new URL(track.licenseUrl).hostname,'creativecommons.org');
  }
+});
+
+test('Deep chronology preserves old story identities, BC dates and the absence of invented borders',async()=>{
+ const {formatYear,yearPosition,positionYear,timelineMax,validYear}=await import('../src/timeline.js');
+ assert.equal(stories.length,200);assert.equal(eras.length,15);
+ assert.equal(stories.filter(s=>s.year<710).length,55);
+ assert.equal(stories.find(s=>s.id===5).title,'Les images du monde flottant');
+ assert.equal(eras[stories.find(s=>s.id===5).era].name,'Edo');
+ assert.equal(formatYear(-500),'500 av. J.-C.');assert.equal(formatYear(57),'57');
+ assert.equal(validYear(0),1);assert.equal(positionYear(timelineMax),2025);
+ let previous=-Infinity;
+ for(let p=0;p<=timelineMax;p++){
+  const year=positionYear(p);assert.ok(year>=previous);assert.notEqual(year,0);previous=year;
+ }
+ for(const era of eras){assert.equal(positionYear(yearPosition(era.start)),era.start)}
+ for(const year of [-38000,-14000,-900,250,592,645,672,694,701,709])assert.equal(politicalSnapshot(year).kind,'archaeology');
+ assert.equal(politicalSnapshot(710).kind,'circuits');
 });

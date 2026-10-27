@@ -30,3 +30,7 @@ https://github.com/johan/world.geo.json/blob/master/countries/JPN.geo.json
 Political regime dates are annual navigation anchors. Changes that happened within a year are explained in accompanying prose. Textual contexts: Encyclopaedia Britannica, Japan / History; UNESCO heritage entries linked in story cards. All historical narrative summaries and contextual notes are original French editorial text, not copied source passages. Individual links may provide broader context than a single dated detail.
 
 Every narrative now also has a topical Wikipedia further-reading article, displayed with a French label and its English article language. The 40 cultural additions have original French summaries. Previously supplied contextual sources remain available as secondary references. These reading links do not constitute a claim that every individual detail was verified against the current article revision.
+
+## Pre-710 view
+
+Before 710 the provincial and prefectural layers, including their internal background strokes, are omitted. The modern coastline is a geographic locator, not a reconstruction of palaeolithic land or sea levels. Archaeological sites and selected documented court seats are shown without invented political boundaries. Himiko’s Yamatai is explicitly not assigned a certain capital. The dating conventions and editorial references are recorded in `early-history-research.json`.

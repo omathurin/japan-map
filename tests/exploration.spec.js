@@ -1,10 +1,10 @@
 import {test,expect} from '@playwright/test';
 import {readFile} from 'node:fs/promises';
-const eras=[710,794,1185,1333,1573,1603,1868,1912,1926,1989];
+const eras=[-38000,-14000,-900,250,592,710,794,1185,1333,1573,1603,1868,1912,1926,1989];
 const lenses=['politique','guerres','religion','culture','arts','cuisine'];
-async function goToYear(page,year){await page.locator('#time').evaluate((el,year)=>{el.value=year;el.dispatchEvent(new Event('input',{bubbles:true}))},year)}
+async function goToYear(page,year){await page.locator('#year-input').evaluate((el,year)=>{el.value=year;el.dispatchEvent(new Event('change',{bubbles:true}))},year)}
 
-test('All sixty era/theme combinations show narratives and clickable hotspots',async({page})=>{
+test('All documented era/theme combinations show narratives and clickable hotspots',async({page})=>{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');
  await expect(page.locator('.marker')).toHaveCount(19);
@@ -12,6 +12,7 @@ test('All sixty era/theme combinations show narratives and clickable hotspots',a
   await goToYear(page,year);
   for(const lens of lenses){
    await page.locator(`[data-lens="${lens}"]`).click();
+   if((year===-38000&&['guerres','religion'].includes(lens))||(year===-14000&&lens==='guerres')){await expect(page.locator('.marker')).toHaveCount(0);await expect(page.locator('#story h2')).not.toBeEmpty();continue;}
    expect(await page.locator('.marker').count(),`${year} ${lens}`).toBeGreaterThan(0);
    await expect(page.locator('#story h2')).not.toBeEmpty();
    await expect(page.locator('#story a.read-more')).toHaveAttribute('href',/^https:\/\/en\.wikipedia\.org\/wiki\//);
@@ -231,4 +232,49 @@ test('Unavailable music can be retried and switching rapidly cannot restart paus
  await expect.poll(()=>page.locator('#ambience-audio').evaluate(el=>el.paused)).toBe(true);
  await page.waitForTimeout(300);
  expect(await page.locator('#ambience-audio').evaluate(el=>el.paused)).toBe(true);
+});
+
+test('Pre-710 sites, BC dates, direct navigation and scaled timeline work through all five new periods',async({page})=>{
+ await page.goto('/');await page.locator('.origins-link').click();
+ await expect(page.locator('#era-name')).toContainText('Paléolithique');
+ await expect(page.locator('#year')).toContainText('av. J.-C.');
+ await expect(page.locator('#story .story-meta')).toContainText('av. J.-C.');
+ expect(await page.locator('#geography .land-outline').evaluateAll(paths=>paths.every(p=>p.getAttribute('stroke')==='none'))).toBe(true);
+ await expect(page.locator('[data-territory]')).toHaveCount(0);
+ await expect(page.locator('#sound')).toBeDisabled();
+ for(const [year,name] of [[-14000,'Jōmon'],[-900,'Yayoi'],[250,'Kofun'],[592,'Asuka']]){
+  await page.locator(`.era-ticks [data-year="${year}"]`).click();
+  await expect(page.locator('#era-name')).toContainText(name);
+  expect(await page.locator('.marker').count()).toBeGreaterThan(0);
+  await expect(page.locator('[data-territory]')).toHaveCount(0);
+ }
+ await page.locator('#search-stories').fill('dix-sept');
+ await page.locator('.catalog-open').click();
+ await expect(page.locator('#year')).toHaveText('604');
+ await expect(page.locator('#story h2')).toContainText('Dix-sept');
+ await page.locator('#search-stories').fill('');await page.locator('[data-lens="all"]').click();
+ await goToYear(page,-1);await expect(page.locator('#year')).toHaveText('1 av. J.-C.');
+ await page.locator('#time').evaluate(el=>{el.value=3000;el.dispatchEvent(new Event('input',{bubbles:true}))});
+ await expect(page.locator('#year')).toHaveText('250');
+ await goToYear(page,701);await expect(page.locator('#political-heading')).toContainText('Fujiwara');
+ await goToYear(page,710);await expect(page.locator('[data-territory]')).toHaveCount(70);
+ await expect(page.locator('#sound')).toBeEnabled();
+});
+
+test('Earlier periods pause later music and restore the listener’s choice on return',async({page})=>{
+ await page.goto('/');await page.locator('#sound').click();
+ await expect.poll(()=>page.locator('#ambience-audio').evaluate(a=>a.paused)).toBe(false);
+ await goToYear(page,-3000);await expect(page.locator('#sound')).toBeDisabled();
+ expect(await page.locator('#ambience-audio').evaluate(a=>a.paused)).toBe(true);
+ await page.locator('.music-info summary').click();
+ await expect(page.locator('#music-status')).toContainText('Aucune musique sélectionnée');
+ await goToYear(page,1831);await expect(page.locator('#sound')).toHaveAttribute('aria-pressed','true');
+ await expect(page.locator('#music-status')).toContainText('À l’écoute');
+});
+
+test('Automatic travel crosses short eras without getting stuck in the same rounded year',async({page})=>{
+ await page.goto('/');await page.clock.install();await goToYear(page,1912);
+ await page.locator('#play').click();await page.clock.runFor(8000);
+ await expect(page.locator('#era-name')).toContainText('Shōwa');
+ await page.locator('#play').click();
 });

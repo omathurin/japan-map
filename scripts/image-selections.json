@@ -23,6 +23,12 @@
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Titre, sujet et notice de source ; vérifier aussi le rendu de l’image téléchargée."
   },
+  "30": {
+    "file": "Medieval Kamaboko.jpg",
+    "context": "Reconstitution muséale contemporaine d’un repas de l’époque de Heian, au musée du kamaboko d’Odawara ; photographie de 2024, non document d’époque.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  },
   "41": {
     "file": "Jōkyū War Memorial Service Pagoda in Butsuganin - 3.jpg",
     "context": "Photographie d’un monument commémoratif de la guerre de Jōkyū, non une scène du conflit de 1221.",
@@ -34,6 +40,18 @@
     "context": "Estampe consacrée au théâtre nō, postérieure à Zeami ; illustration de la tradition théâtrale.",
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Titre, sujet et notice de source ; vérifier aussi le rendu de l’image téléchargée."
+  },
+  "47": {
+    "file": "Fukuchiin shojin ryori appetizer.jpg",
+    "context": "Exemple contemporain de cuisine shōjin ryōri au temple Fukuchi-in du mont Kōya, au Japon ; il ne reconstitue pas un repas précis de 1400.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  },
+  "48": {
+    "file": "Naha Okinawa Japan Shuri-Castle-01.jpg",
+    "context": "Le palais reconstruit de Shuri, photographié en 2016, illustre le siège historique du royaume des Ryūkyū ; cette vue n’est pas le château tel qu’il se présentait en 1429.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
   },
   "54": {
     "file": "Portrait of Toyotomi Hideyoshi.jpg",
@@ -83,6 +101,18 @@
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Titre, sujet et notice de source ; vérifier aussi le rendu de l’image téléchargée."
   },
+  "95": {
+    "file": "President Nixon and Prime Minister Eisaku Sato of Japan at San Clemente - NARA - 194752.jpg",
+    "context": "Eisaku Satō et Richard Nixon à San Clemente le 5 janvier 1972, dans le contexte des relations américano-japonaises précédant la rétrocession de mai. Ce n’est pas une photographie de la cérémonie de rétrocession.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Notice NARA/Commons : sujet, date et photographe vérifiés."
+  },
+  "97": {
+    "file": "Genbaku Dome04-r.JPG",
+    "context": "Le Dôme de la bombe atomique à Hiroshima, conservé comme lieu de mémoire. Photographie postérieure à 1945, utilisée pour illustrer la transmission du souvenir.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Monument mémoriel explicitement associé à Hiroshima ; photographie de lieu, sans image de victimes blessées."
+  },
   "102": {
     "file": "HayaoMiyazakiCCJuly09.jpg",
     "context": "Hayao Miyazaki, réalisateur du Voyage de Chihiro, photographié en 2009 ; aucun photogramme protégé du film n’est reproduit.",
@@ -94,6 +124,12 @@
     "context": "Portrait d’Akihito en 2016, antérieur à son abdication de 2019.",
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Titre, sujet et notice de source ; vérifier aussi le rendu de l’image téléchargée."
+  },
+  "105": {
+    "file": "Bungonokuni Fudoki Kusu.jpg",
+    "context": "Page du Bungo no kuni fudoki consacrée à Kusu, issue des archives numériques nationales. La date de compilation du texte ne doit pas être confondue avec celle de la copie ou de la numérisation.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Notice Commons et référence des Archives nationales du Japon."
   },
   "106": {
     "file": "NAJDA-215-0001 懐風藻.pdf",
@@ -119,6 +155,12 @@
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Titre, sujet et notice de source ; vérifier aussi le rendu de l’image téléchargée."
   },
+  "113": {
+    "file": "Hojyoki codex Daifukukohji.jpg",
+    "context": "Manuscrit du Hōjōki conservé au Daifukukō-ji, attribué à Kamo no Chōmei ; texte du XIIIe siècle, photographié ultérieurement.",
+    "reviewedAt": "2026-10-27",
+    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  },
   "119": {
     "file": "Yoshitoshi Sogi.jpg",
     "context": "Représentation de Sōgi par Yoshitoshi au XIXe siècle, postérieure à la composition du renga de Minase.",
@@ -131,46 +173,220 @@
     "reviewedAt": "2026-10-27",
     "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
   },
-  "95": {
-    "file": "President Nixon and Prime Minister Eisaku Sato of Japan at San Clemente - NARA - 194752.jpg",
-    "context": "Eisaku Satō et Richard Nixon à San Clemente le 5 janvier 1972, dans le contexte des relations américano-japonaises précédant la rétrocession de mai. Ce n’est pas une photographie de la cérémonie de rétrocession.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Notice NARA/Commons : sujet, date et photographe vérifiés."
+  "145": {
+    "file": "Iwajuku Museum 01.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
   },
-  "105": {
-    "file": "Bungonokuni Fudoki Kusu.jpg",
-    "context": "Page du Bungo no kuni fudoki consacrée à Kusu, issue des archives numériques nationales. La date de compilation du texte ne doit pas être confondue avec celle de la copie ou de la numérisation.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Notice Commons et référence des Archives nationales du Japon."
+  "146": {
+    "file": "Topographic map of Okinawa Island for location map.png",
+    "context": "Carte topographique actuelle d’Okinawa, utilisée pour situer Sakitari et les peuplements insulaires. Les rivages paléolithiques étaient différents."
   },
-  "97": {
-    "file": "Genbaku Dome04-r.JPG",
-    "context": "Le Dôme de la bombe atomique à Hiroshima, conservé comme lieu de mémoire. Photographie postérieure à 1945, utilisée pour illustrer la transmission du souvenir.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Monument mémoriel explicitement associé à Hiroshima ; photographie de lieu, sans image de victimes blessées."
+  "147": {
+    "file": "Minatogawa 1 (Replica).jpg",
+    "context": "Réplique muséale du squelette de Minatogawa 1 ; photographie actuelle, pas un portrait de l’individu vivant."
   },
-  "30": {
-    "file": "Medieval Kamaboko.jpg",
-    "context": "Reconstitution muséale contemporaine d’un repas de l’époque de Heian, au musée du kamaboko d’Odawara ; photographie de 2024, non document d’époque.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  "148": {
+    "file": "Sanuka-zaki, Kozushima.JPG",
+    "context": "Photographie moderne de Sanuka-zaki à Kōzushima, repère géographique de l’île source d’obsidienne ; elle ne représente pas les traversées paléolithiques."
   },
-  "47": {
-    "file": "Fukuchiin shojin ryori appetizer.jpg",
-    "context": "Exemple contemporain de cuisine shōjin ryōri au temple Fukuchi-in du mont Kōya, au Japon ; il ne reconstitue pas un repas précis de 1400.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  "149": {
+    "file": "Stone Awl Sumi-Furusawa Archeological Site 20250209.jpg",
+    "context": "Outil du site paléolithique de Sumi-Furusawa, document de contexte sur les industries de pierre ; il ne provient pas de Shirataki et ne montre pas un assemblage de microlames."
   },
-  "48": {
-    "file": "Naha Okinawa Japan Shuri-Castle-01.jpg",
-    "context": "Le palais reconstruit de Shuri, photographié en 2016, illustre le siège historique du royaume des Ryūkyū ; cette vue n’est pas le château tel qu’il se présentait en 1429.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  "150": {
+    "file": "JapanesePolishedStoneAxes.JPG",
+    "context": "Haches de pierre polie paléolithiques : objets archéologiques présentés dans une photographie moderne."
   },
-  "113": {
-    "file": "Hojyoki codex Daifukukohji.jpg",
-    "context": "Manuscrit du Hōjōki conservé au Daifukukō-ji, attribué à Kamo no Chōmei ; texte du XIIIe siècle, photographié ultérieurement.",
-    "reviewedAt": "2026-10-27",
-    "selectionBasis": "Sujet, lieu, date et droits vérifiés dans la notice Commons ; image de contexte explicitement qualifiée."
+  "151": {
+    "file": "Topographic map of Okinawa Island for location map.png",
+    "context": "Carte actuelle situant la grotte de Sakitari sur Okinawa, document de localisation et non photographie des hameçons."
+  },
+  "152": {
+    "file": "Sumi-Furusawa Archeological Site Restored Tent 20250209.jpg",
+    "context": "Reconstitution moderne d’un abri au site paléolithique de Sumi-Furusawa ; ses formes sont une restitution et non un campement conservé."
+  },
+  "153": {
+    "file": "Odai Yamamoto I site (under construction).jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "154": {
+    "file": "140913 Sannai-Maruyama site Aomori Japan01bs6bs6.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "155": {
+    "file": "Monument of Shell mounds of Omori.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "156": {
+    "file": "Jadeite Pendants, Niigata Prefectural Museum of History.jpg",
+    "context": "Parures de jade de Jōmon exposées au musée d’histoire de Niigata ; photographie moderne d’objets provenant de plusieurs lieux."
+  },
+  "157": {
+    "file": "御所野遺跡の復元竪穴建物.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "158": {
+    "file": "Oyu-kanjyouretuseki.JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "159": {
+    "file": "Jomon Flame Style Pottery, 3000 BC.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "160": {
+    "file": "140913 Sannai-Maruyama site Aomori Japan01bs6bs6.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "161": {
+    "file": "140913 Sannai-Maruyama site Aomori Japan01bs6bs6.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "162": {
+    "file": "Nabatake Site rice field.JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "163": {
+    "file": "Itazuke Ruins.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "164": {
+    "file": "Toro3.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "165": {
+    "file": "Toro3.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "166": {
+    "file": "Itazuke_Ruins.jpg",
+    "context": "Vue actuelle du site d’Itazuke, exemple de la riziculture de Yayoi associée aux contacts continentaux ; ce n’est pas une image des migrations."
+  },
+  "167": {
+    "file": "Text of the Wei Zhi (魏志), 297.jpg",
+    "context": "Reproduction d’une page du Wei Zhi, source chinoise sur les pays de Wa et Himiko. Elle ne localise pas avec certitude Yamatai."
+  },
+  "168": {
+    "file": "Yoshinogari Ancient Ruins 2008.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "169": {
+    "file": "静岡県浜松市浜松市北区細江町中川悪ヶ谷出土 六区画袈裟襷紋銅鐸 (複製).JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "170": {
+    "file": "YayoiJar.JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "171": {
+    "file": "Toro3.jpg",
+    "context": "Reconstitutions et paysage du site de Toro : document de contexte sur un village agricole de Yayoi, photographié aujourd’hui."
+  },
+  "172": {
+    "file": "Nintoku's tomb-仁徳天皇陵 - panoramio.jpg",
+    "context": "Vue moderne du tertre de Daisen, traditionnellement attribué à Nintoku. Cette attribution n’est pas une identification archéologique certaine."
+  },
+  "173": {
+    "file": "Warrior in Keiko Armor, National Treasure, Kofun period, 6th century, haniwa (terracotta tomb figurine) from Iizuka-machi, Ota-shi, Gunma - Tokyo National Museum - DSC06425.JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "174": {
+    "file": "Clevelandart 1957.27.jpg",
+    "context": "Haniwa représentant un cheval caparaçonné, daté des Ve–VIe siècles ; photographie d’un objet de collection."
+  },
+  "175": {
+    "file": "横瓶_須恵器-Recumbent_Bottle_(Yokobe)_MET_2015_300_259_Burke_website.jpg",
+    "context": "Récipient sue : objet illustrant une tradition technique issue des contacts continentaux, pas le portrait d’un artisan migrant."
+  },
+  "176": {
+    "file": "Ishibutai-kofun Asuka Nara pref08s4592.jpg",
+    "context": "Photographie actuelle de la chambre d’Ishibutai, monument du VIIe siècle, postérieur au repère 550. Exemple de l’architecture à accès horizontal, pas datation du tombeau à 550."
+  },
+  "177": {
+    "file": "Nintoku's tomb-仁徳天皇陵 - panoramio.jpg",
+    "context": "Vue actuelle d’un grand tertre du groupe de Mozu, témoin des élites de Kofun ; elle ne représente pas les frontières du pouvoir du Yamato."
+  },
+  "178": {
+    "file": "Inariyama sword.JPG",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "179": {
+    "file": "Nintoku's tomb-仁徳天皇陵 - panoramio.jpg",
+    "context": "Vue actuelle d’un tertre de Mozu. L’attribution traditionnelle à Nintoku n’est pas une identification archéologique certaine."
+  },
+  "180": {
+    "file": "横瓶 須恵器-Recumbent Bottle (Yokobe) MET 2015 300 259 Burke website.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "181": {
+    "file": "Kamado4816.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "182": {
+    "file": "210401 One-thousandth scale model of Aramashinomiyako.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "183": {
+    "file": "Ono no Imoko.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "184": {
+    "file": "Wooden tablets (copy) in 7-8th c.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "185": {
+    "file": "Horyu-ji11s3200.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "186": {
+    "file": "Wadokaichin coin 8th century Japan.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "187": {
+    "file": "Irukaansatsuzu.jpg",
+    "context": "Représentation postérieure de la mort de Soga no Iruka en 645. Cette image illustre la mémoire du coup de cour, pas un témoignage visuel contemporain."
+  },
+  "188": {
+    "file": "Omi Otsu-no-miya, dairi-seiden-ato.jpg",
+    "context": "Document associé au site ou au sujet ; photographie moderne, copie ou reconstitution, dont la notice précise la date. Il ne représente pas nécessairement le lieu à la date du curseur."
+  },
+  "189": {
+    "file": "Horyu-ji11s3200.jpg",
+    "context": "Vue actuelle de Hōryū-ji, temple fondé au début du VIIe siècle : document sur l’essor du bouddhisme après son introduction."
+  },
+  "190": {
+    "file": "Horyuji Shaka Triad.jpg",
+    "context": "Triade de Shaka attribuée à Tori Busshi, photographie d’une œuvre traditionnellement associée à 623 ; consulter la notice pour le document photographique."
+  },
+  "191": {
+    "file": "Horyu-ji11s3200.jpg",
+    "context": "Vue actuelle de Hōryū-ji, document de contexte bouddhique. Elle ne représente pas un repas ni l’édit de 675."
+  },
+  "192": {
+    "file": "JomonStatue.JPG",
+    "context": "Figurine dogū de Jōmon, photographiée dans une collection. Les fonctions rituelles restent discutées."
+  },
+  "193": {
+    "file": "King of Na gold seal face.png",
+    "context": "Face du sceau d’or de Na : document sur l’objet traditionnellement associé à l’ambassade de 57."
+  },
+  "194": {
+    "file": "Horyu-ji11s3200.jpg",
+    "context": "Temple de Hōryū-ji photographié aujourd’hui, fondé après les dates traditionnelles 538 ou 552 de l’introduction officielle du bouddhisme."
+  },
+  "195": {
+    "file": "Horyu-ji11s3200.jpg",
+    "context": "Vue actuelle d’un temple bouddhique, document de contexte de l’essor de la religion à la cour ; elle ne montre pas la bataille de 587."
+  },
+  "196": {
+    "file": "Prince Shotoku.jpg",
+    "context": "Portrait postérieur traditionnellement associé au prince Shōtoku, pas un portrait réalisé en 604."
+  },
+  "197": {
+    "file": "210401_One-thousandth_scale_model_of_Aramashinomiyako.jpg",
+    "context": "Maquette moderne de Fujiwara-kyō, siège de la cour au moment de la promulgation du code de Taihō."
+  },
+  "198": {
+    "file": "Omi_Otsu-no-miya,_dairi-seiden-ato.jpg",
+    "context": "Vue actuelle du site d’Ōmi Ōtsu-no-miya, capitale de Tenji à partir de 667, après Baekgang ; document de contexte politique, pas le champ de bataille coréen."
   }
 }

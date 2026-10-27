@@ -5,7 +5,7 @@ import {storyImages} from '../src/image-manifest.js';
 import {musicTracks} from '../src/music-manifest.js';
 const root=resolve(import.meta.dirname,'..');
 const read=p=>readFile(resolve(root,p),'utf8');
-const modules=['references','cultural-stories','more-stories','data','politics','political-map','image-manifest','illustrations','music-manifest','music','main'];
+const modules=['early-stories','references','cultural-stories','more-stories','data','politics','political-map','image-manifest','illustrations','music-manifest','music','timeline','main'];
 const embeddedImages={};
 for(const[id,image]of Object.entries(storyImages)){
  if(!/^\.\/images\/[a-z0-9-]+\.(jpg|png|webp)$/.test(image.src))throw new Error(`Unsafe image path for story ${id}`);

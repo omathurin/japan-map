@@ -1,8 +1,9 @@
+import {earlyEras,earlyStories} from './early-stories.js';
 import {culturalStories} from './cultural-stories.js';
 import {storyReference,wikipediaReference} from './references.js';
 import {additionalStories} from './more-stories.js';
 export const lenses = [['all','Toutes les histoires','✳'],['politique','Politique','♜'],['guerres','Guerres','⚔'],['religion','Religion','⛩'],['culture','Culture','◈'],['arts','Arts','✿'],['cuisine','Cuisine','♨']];
-export const eras = [
+export const eras = [...earlyEras,
  {name:'Nara',start:710,end:793,title:'Aux sources d’un empire',intro:'Une capitale se dessine. Le bouddhisme et les institutions venues du continent transforment l’archipel.',city:'Nara',lat:34.685,lon:135.805},
  {name:'Heian',start:794,end:1184,title:'Le temps de la cour impériale',intro:'À Heian-kyō, une culture de cour s’épanouit. Poésie, littérature et sensibilité aux saisons façonnent un nouvel imaginaire.',city:'Kyoto',lat:35.01,lon:135.77},
  {name:'Kamakura',start:1185,end:1332,title:'L’avènement des samouraïs',intro:'Le pouvoir militaire s’installe à Kamakura. De nouveaux courants bouddhiques et les invasions mongoles marquent cette époque.',city:'Kamakura',lat:35.32,lon:139.55},
@@ -36,7 +37,8 @@ const initialStories = [
 ].map((s,i)=>({id:i,era:s[0],lens:s[1],title:s[2],year:s[3],city:s[4],lat:s[5],lon:s[6],text:s[7],source:s[8]}));
 const historicalStories = [...initialStories, ...additionalStories.map((s,i)=>({...s,id:initialStories.length+i}))];
 export const stories = [
- ...historicalStories.map(s=>({...s,reference:storyReference(s.id)})),
- ...culturalStories.map((s,i)=>{const reference=wikipediaReference(s.article,s.referenceTitle);return{...s,id:historicalStories.length+i,source:reference.url,reference}})
+ ...historicalStories.map(s=>({...s,era:s.era+earlyEras.length,reference:storyReference(s.id)})),
+ ...culturalStories.map((s,i)=>{const reference=wikipediaReference(s.article,s.referenceTitle);return{...s,era:s.era+earlyEras.length,id:historicalStories.length+i,source:reference.url,reference}}),
+ ...earlyStories.map(s=>{const reference=wikipediaReference(s.article,s.referenceTitle);return{...s,source:s.contextSource||reference.url,reference}})
 ];
 export {topics};
