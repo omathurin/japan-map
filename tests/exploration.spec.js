@@ -119,6 +119,7 @@ test('Illustrations display source, author, licence and a readable failure state
  await expect(page.locator('#story .image-attribution a')).toHaveAttribute('href',media.licenseUrl);
  await expect(page.locator('#story .image-source')).toHaveAttribute('href',media.sourcePage);
  await expect(page.locator('#story .image-failure')).toBeVisible();
+ await page.locator('#story .image-info-toggle').click();
  await page.locator('#story .image-details summary').click();
  await expect(page.locator('#story .image-details')).toContainText('Notice de droits de test');
  await page.setViewportSize({width:390,height:844});
@@ -142,4 +143,36 @@ test('Real local illustrations load for every story, with credits, under the con
   });expect(decoded.every(Boolean)).toBe(true);
  }
  expect(errors).toEqual([]);
+});
+
+
+test('Image credits overlay is discreet, hoverable, dismissible and keyboard accessible',async({page})=>{
+ await page.goto('/');
+ const figure=page.locator('#story .documentary-figure'),panel=figure.locator('.image-credit-panel'),toggle=figure.locator('.image-info-toggle');
+ await expect(panel).toBeHidden();await expect(toggle).toHaveAttribute('aria-expanded','false');
+ const before=await figure.boundingBox();expect(before.height).toBeLessThanOrEqual(231);
+ await figure.locator('.image-preview').hover({position:{x:25,y:18}});await expect(panel).toBeVisible();
+ await expect(panel.locator('.image-attribution')).toContainText('Hokusai');
+ await expect(panel.locator('.image-source')).toHaveAttribute('href',/^https:\/\/commons\.wikimedia\.org/);
+ expect((await figure.boundingBox()).height).toBe(before.height);
+ await page.locator('h1').hover();await expect(panel).toBeHidden();
+ await toggle.focus();await expect(panel).toBeVisible();
+ await page.keyboard.press('Escape');await expect(panel).toBeHidden();await expect(toggle).toBeFocused();
+ await page.keyboard.press('Enter');await expect(panel).toBeVisible();
+ await page.locator('h1').hover();await expect(panel).toBeVisible();
+ await page.locator('h1').click();await expect(panel).toBeHidden();
+ await toggle.click();await expect(panel).toBeVisible();await figure.locator('.image-info-close').click();await expect(panel).toBeHidden();
+ const thumbnail=page.locator('.catalog-story .documentary-figure').first();
+ await thumbnail.locator('.image-info-toggle').click();await expect(thumbnail.locator('.image-credit-panel')).toBeVisible();
+ expect((await thumbnail.boundingBox()).height).toBeLessThanOrEqual(191);
+});
+
+test('Touch users can open and close image credits without hover',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});const page=await context.newPage();
+ await page.goto('http://127.0.0.1:5173/');
+ const figure=page.locator('#story .documentary-figure'),panel=figure.locator('.image-credit-panel');
+ await expect(panel).toBeHidden();await figure.locator('.image-info-toggle').tap();await expect(panel).toBeVisible();
+ await expect(panel.locator('.image-attribution')).toContainText('Hokusai');
+ const image=await figure.boundingBox(),overlay=await panel.boundingBox();expect(overlay.x).toBeGreaterThanOrEqual(image.x);expect(overlay.x+overlay.width).toBeLessThanOrEqual(image.x+image.width);expect(overlay.y+overlay.height).toBeLessThanOrEqual(image.y+image.height);
+ await figure.locator('.image-info-close').tap();await expect(panel).toBeHidden();await context.close();
 });
