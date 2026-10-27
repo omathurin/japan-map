@@ -1,0 +1,1472 @@
+{
+  "researchedAt": "2026-10-27T09:32:43.054Z",
+  "method": "Article lead image → Commons file rights metadata → local thumbnail. No fair-use or unknown licence is accepted.",
+  "records": [
+    {
+      "storyId": 0,
+      "title": "Le grand Bouddha de Nara",
+      "article": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+      "candidate": "Tōdai-ji_Kon-dō.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji%20Kon-d%C5%8D.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "936406e8dd42af02235ee788ef4a9f482b93f4d43917fe21bbb34b6756bf26f7"
+    },
+    {
+      "storyId": 1,
+      "title": "Une voix venue de la cour",
+      "article": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "candidate": "Genji_emaki_01003_002.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Genji%20emaki%2001003%20002.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3f6e58ca25e5da3e3ff869e71b7d43d27065f3bad07a62bbd3ee191341190efc"
+    },
+    {
+      "storyId": 2,
+      "title": "Face aux flottes mongoles",
+      "article": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+      "candidate": "Mongol_invasions_of_Japan_1274,_1281.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mongol%20invasions%20of%20Japan%201274%2C%201281.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "1a47627f7a0f2eaac280ee055c953f7da43e482ea94264337af3997f5def7e66"
+    },
+    {
+      "storyId": 3,
+      "title": "Le silence d’un jardin zen",
+      "article": "https://en.wikipedia.org/wiki/Ry%C5%8Dan-ji",
+      "candidate": "Kare-sansui_zen_garden,_Ryōan-ji,_Kyoto_20190416_1.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kare-sansui%20zen%20garden%2C%20Ry%C5%8Dan-ji%2C%20Kyoto%2020190416%201.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "cec74838e626599c155118855dda0131d97794171ad3fb0353ea53f2ec5ac2f0"
+    },
+    {
+      "storyId": 4,
+      "title": "Le château d’un unificateur",
+      "article": "https://en.wikipedia.org/wiki/Osaka_Castle",
+      "candidate": "Osaka_Castle_03bs3200.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Osaka%20Castle%2003bs3200.jpg",
+      "license": "CC BY 2.5",
+      "sha256": "0831e85ddb3215c9ce25c9b702e8f406644fa64cdcd78a00e284d61c28749028"
+    },
+    {
+      "storyId": 5,
+      "title": "Les images du monde flottant",
+      "article": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "candidate": "Tsunami_by_hokusai_19th_century.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tsunami%20by%20hokusai%2019th%20century.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "343166b78ac071e82603925f06f9892197bdccd410356fc65650b3346b12a177"
+    },
+    {
+      "storyId": 6,
+      "title": "Le sushi prend la rue",
+      "article": "https://en.wikipedia.org/wiki/Sushi",
+      "candidate": "Sushi_platter.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sushi%20platter.jpg",
+      "license": "CC BY-SA 2.0",
+      "sha256": "8ed657021ddfec3f09cbf381829c4694aed98622a280fde2e6eb32b1c54c16f4"
+    },
+    {
+      "storyId": 7,
+      "title": "Sur les chemins d’Ise",
+      "article": "https://en.wikipedia.org/wiki/Ise_Grand_Shrine",
+      "candidate": "Naiku_04.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naiku%2004.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "41ca0da83f2052ed960db8ef24498e7c37f412058cde48fd1bc4ebf13839e2f1"
+    },
+    {
+      "storyId": 8,
+      "title": "Une autre porte sur le monde",
+      "article": "https://en.wikipedia.org/wiki/Dejima",
+      "candidate": "Plattegrond_van_Deshima.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Plattegrond%20van%20Deshima.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "57749176d0ab9c4bc7459b94d93f2265617826a2749ba31f3b5f8a9e8972aab8"
+    },
+    {
+      "storyId": 9,
+      "title": "Kyoto, la scène des traditions",
+      "article": "https://en.wikipedia.org/wiki/Kabuki",
+      "candidate": "Kikugorō_Onoe_VI_as_Umeō-maru.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kikugor%C5%8D%20Onoe%20VI%20as%20Ume%C5%8D-maru.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5a63905a14b071207b8c3dc7dbb29823eaf09952106f1d85972bf7097984fc4b"
+    },
+    {
+      "storyId": 10,
+      "title": "Sekigahara, à l’aube d’Edo",
+      "article": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
+      "candidate": "Sekigaharascreen.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sekigaharascreen.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "2979119ad2d31eac8aa94eddf47dbf434e6c98603e2538bcfafb4786982c7c11"
+    },
+    {
+      "storyId": 11,
+      "title": "Une nouvelle capitale politique",
+      "article": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+      "candidate": "Emperor_Meiji_by_Takahashi_Yuichi.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Meiji%20by%20Takahashi%20Yuichi.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "8d793e0bb828e7c605f94bbdb5e83fcaf972ea6cd57c17712f5a9e8c5cfdad1b"
+    },
+    {
+      "storyId": 12,
+      "title": "La ville entre dans une autre ère",
+      "article": "https://en.wikipedia.org/wiki/Taish%C5%8D_era",
+      "candidate": "Emperor_Taisho_of_Japan.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Taisho%20of%20Japan.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5d1589d94ea34cdffde6cefd3dfe6e724cfff107f382f5be6d76fa9f3231f815"
+    },
+    {
+      "storyId": 13,
+      "title": "Hiroshima, la mémoire pour horizon",
+      "article": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki",
+      "candidate": "Atomic_bombing_of_Japan.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Atomic%20bombing%20of%20Japan.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "0704792a9d9d290badb4fc7a8605a88b4371d77db913562e43432c03ddb919a8"
+    },
+    {
+      "storyId": 14,
+      "title": "L’art prend le large",
+      "article": "https://en.wikipedia.org/wiki/Setouchi_Triennale",
+      "candidate": "Beachside Torii, Naoshima.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beachside%20Torii%2C%20Naoshima.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "7045caa717f36c4f8c4a36fab794977f8059192508b30551710e62fc0b0c3c91"
+    },
+    {
+      "storyId": 15,
+      "title": "Heijō-kyō, une capitale quadrillée",
+      "article": "https://en.wikipedia.org/wiki/Heij%C5%8D-ky%C5%8D",
+      "candidate": "Heijokyo.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Heijokyo.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "4a3aed796be89e27428cdb245cb1c7e0e93e497421c60c837f97a329c702388c"
+    },
+    {
+      "storyId": 16,
+      "title": "Le Kojiki met les origines par écrit",
+      "article": "https://en.wikipedia.org/wiki/Kojiki",
+      "candidate": "Shinpukuji-bon Kojiki (真福寺本古事記).png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shinpukuji-bon%20Kojiki%20(%E7%9C%9F%E7%A6%8F%E5%AF%BA%E6%9C%AC%E5%8F%A4%E4%BA%8B%E8%A8%98).png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "ddeaaea5ca14f23db7f532ed407ee55592cba83b62a6ea689468c2fcfcf3a7fe"
+    },
+    {
+      "storyId": 17,
+      "title": "Le Nihon shoki et la mémoire officielle",
+      "article": "https://en.wikipedia.org/wiki/Nihon_Shoki",
+      "candidate": "Nihonshoki_tanaka_version.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nihonshoki%20tanaka%20version.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "fed1441ea49e7da57f16ecf5f7bcf6ea8c804e78132b5c865bc28fbc78408bba"
+    },
+    {
+      "storyId": 18,
+      "title": "Un réseau de temples provinciaux",
+      "article": "https://en.wikipedia.org/wiki/Kokubun-ji",
+      "candidate": "Mutsu_Kokubunji_Yakushido_in_2008.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mutsu%20Kokubunji%20Yakushido%20in%202008.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "b83a9022b7c2cf5f8b99bba3e40969a96ff283689695a408399dbeb7ee2c863c"
+    },
+    {
+      "storyId": 19,
+      "title": "Les trésors du Shōsō-in",
+      "article": "https://en.wikipedia.org/wiki/Sh%C5%8Ds%C5%8Din",
+      "candidate": "Japan- Nara, Todaiji Shosoin 2009.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Japan-%20Nara%2C%20Todaiji%20Shosoin%202009.jpg",
+      "license": "CC BY-SA 2.0",
+      "sha256": "a9cf1014db40e45bdce933bf825a45da3f7be37c4d8bc1181497e5652d429603"
+    },
+    {
+      "storyId": 20,
+      "title": "La rébellion de Fujiwara no Hirotsugu",
+      "article": "https://en.wikipedia.org/wiki/Fujiwara_no_Hirotsugu_rebellion",
+      "candidate": "Fujiwara_no_Hirotsugu.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fujiwara%20no%20Hirotsugu.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3b405393eeb527df129fe3e0c29c7cb2b267a0e8340bfc2f2b4ce9c5076ceead"
+    },
+    {
+      "storyId": 21,
+      "title": "Le riz, impôt et ressource politique",
+      "article": "https://en.wikipedia.org/wiki/Sh%C5%8Den",
+      "candidate": "Nukata-dera_map.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nukata-dera%20map.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "26d7a5a68a15ebeb354de58c3066d3687814500418960bac9d34b73ef2903fe9"
+    },
+    {
+      "storyId": 22,
+      "title": "Le Man’yōshū, des milliers de voix",
+      "article": "https://en.wikipedia.org/wiki/Man'y%C5%8Dsh%C5%AB",
+      "candidate": "Segments of Vol. 2 of the Man’yōshū Poetry Anthology (Known as the Kanazawa-bon Man’yōshū).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Segments%20of%20Vol.%202%20of%20the%20Man%E2%80%99y%C5%8Dsh%C5%AB%20Poetry%20Anthology%20(Known%20as%20the%20Kanazawa-bon%20Man%E2%80%99y%C5%8Dsh%C5%AB).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "a02bf1b74b50a67f5924551568bde1e3f9a4559c9e566327f3bebbd248571c30"
+    },
+    {
+      "storyId": 23,
+      "title": "La cour quitte Nara",
+      "article": "https://en.wikipedia.org/wiki/Nagaoka-ky%C5%8D",
+      "candidate": "Nagaoka-kyu-ato_sekihi-2.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nagaoka-kyu-ato%20sekihi-2.jpg",
+      "license": "CC0 1.0",
+      "sha256": "4a38be1a52519cd6a4bdb2ec1181b270c86092c3f7b092abbf1e982dd4d5c6e6"
+    },
+    {
+      "storyId": 24,
+      "title": "Heian-kyō devient la capitale",
+      "article": "https://en.wikipedia.org/wiki/Heian-ky%C5%8D",
+      "candidate": "Daidairi_of_Heiankyo.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daidairi%20of%20Heiankyo.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "c0c3afd6ef0e9a960955f7f45134c6c971cc50b75a64897f74d9d62509a6e607"
+    },
+    {
+      "storyId": 25,
+      "title": "Saichō et le bouddhisme du mont Hiei",
+      "article": "https://en.wikipedia.org/wiki/Saich%C5%8D",
+      "candidate": "最澄像_一乗寺蔵_平安時代.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%9C%80%E6%BE%84%E5%83%8F%20%E4%B8%80%E4%B9%97%E5%AF%BA%E8%94%B5%20%E5%B9%B3%E5%AE%89%E6%99%82%E4%BB%A3.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "bf5f2b77cc5e7d50e8e4b1f9fc99b79dac5d8a37ded0b016b9b3466502bb685e"
+    },
+    {
+      "storyId": 26,
+      "title": "Kūkai ouvre un sanctuaire de montagne",
+      "article": "https://en.wikipedia.org/wiki/K%C5%ABkai",
+      "candidate": "Eight_Patriarchs_of_the_Shingon_Sect_of_Buddhism_Kukai_Cropped.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eight%20Patriarchs%20of%20the%20Shingon%20Sect%20of%20Buddhism%20Kukai%20Cropped.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "0fb8945f7e74ba76b656de24dc2834ccae86d6c149ea72f337b9705538da306b"
+    },
+    {
+      "storyId": 27,
+      "title": "Le kana donne de nouvelles formes à l’écrit",
+      "article": "https://en.wikipedia.org/wiki/Kokin_Wakash%C5%AB",
+      "candidate": "Kokin_Wakashu_Genei.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kokin%20Wakashu%20Genei.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "2f311274bfd183f334d0243126079eeb17777474402f11dcfcb74962580d0220"
+    },
+    {
+      "storyId": 28,
+      "title": "Fujiwara no Michinaga au sommet",
+      "article": "https://en.wikipedia.org/wiki/Fujiwara_no_Michinaga",
+      "candidate": "Fujiwara_no_Michinaga_2.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fujiwara%20no%20Michinaga%202.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "6b5a98d6b9508fb1f1c2c8b09cca5df089ca28954420e1e8f5e197a4ad3df946"
+    },
+    {
+      "storyId": 29,
+      "title": "Les guerriers Taira prennent l’avantage",
+      "article": "https://en.wikipedia.org/wiki/Heiji_rebellion",
+      "candidate": "Heiji_rokuhara_gyoukou.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Heiji%20rokuhara%20gyoukou.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "f796c64b10c009f7a6d964c40decc66e4563d706323ad5c0151323999adbd126"
+    },
+    {
+      "storyId": 30,
+      "title": "Les tables de la cour et leurs hiérarchies",
+      "article": "https://en.wikipedia.org/wiki/History_of_Japanese_cuisine",
+      "candidate": "Medieval Kamaboko.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Medieval%20Kamaboko.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "f6feaaf74e6d146716bf778abbcb488a0d23df4c03ec07710186ba23a5b99f1f"
+    },
+    {
+      "storyId": 31,
+      "title": "Sei Shōnagon observe les petites choses",
+      "article": "https://en.wikipedia.org/wiki/The_Pillow_Book",
+      "candidate": "Sei_Shonagon2.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sei%20Shonagon2.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "85c08eab3d49dec6530b817a81dc01c92a3f766823864d517aad4966c0b6163c"
+    },
+    {
+      "storyId": 32,
+      "title": "Hiraizumi, un autre foyer de splendeur",
+      "article": "https://en.wikipedia.org/wiki/Ch%C5%ABson-ji",
+      "candidate": "230728_Chusonji_Hiraizumi_Iwate_pref_Japan01s3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:230728%20Chusonji%20Hiraizumi%20Iwate%20pref%20Japan01s3.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "902d88e7c3bbf30bb3724c83b65184cd0e421da05d76fe8dae92ea61ee9ba8ac"
+    },
+    {
+      "storyId": 33,
+      "title": "Yoritomo et le gouvernement de Kamakura",
+      "article": "https://en.wikipedia.org/wiki/Minamoto_no_Yoritomo",
+      "candidate": "Minamoto_no_Yoritomo.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Minamoto%20no%20Yoritomo.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3dbb1f04bc07a3907a04ce1453404b497f41516bc011fbd1d8c924fec068d1b7"
+    },
+    {
+      "storyId": 34,
+      "title": "Dan-no-ura met fin à la guerre de Genpei",
+      "article": "https://en.wikipedia.org/wiki/Battle_of_Dan-no-ura",
+      "candidate": "AntokuTennou_Engi.7&8_Dannoura_Kassen.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:AntokuTennou%20Engi.7%268%20Dannoura%20Kassen.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "e8845e24be9134ad1a63ad472c4de15b3c815afd39745409398c86ab52eef192"
+    },
+    {
+      "storyId": 35,
+      "title": "Les Hōjō gouvernent derrière les shōguns",
+      "article": "https://en.wikipedia.org/wiki/H%C5%8Dj%C5%8D_clan",
+      "candidate": "Japanese_Crest_mitu_Uroko.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Japanese%20Crest%20mitu%20Uroko.svg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "50c8179c6f0e4e4597392d0e0782d9feae883db816b4200b2133e530210217be"
+    },
+    {
+      "storyId": 36,
+      "title": "Shinran et la confiance en Amida",
+      "article": "https://en.wikipedia.org/wiki/Shinran",
+      "candidate": "Shinran_(Nara_National_Museum).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shinran%20(Nara%20National%20Museum).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "4d48f1494d3dbc5d7e2cc5f9af5b4f987acfd0c0f2a52936b6513e697270955a"
+    },
+    {
+      "storyId": 37,
+      "title": "Dōgen transmet le zen Sōtō",
+      "article": "https://en.wikipedia.org/wiki/D%C5%8Dgen",
+      "candidate": "Soto-Zen-Master-Dogen-Zenji-Portrait.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Soto-Zen-Master-Dogen-Zenji-Portrait.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "04f67b54976896de2f42fd5b5f73f03cbc5a639b7a968835a66a289cc61cf5a4"
+    },
+    {
+      "storyId": 38,
+      "title": "Unkei et le corps en mouvement",
+      "article": "https://en.wikipedia.org/wiki/Unkei",
+      "candidate": "Unkei_Rokuharamitsuji.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Unkei%20Rokuharamitsuji.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "defe8e20451c6c757cb9f6d06de04a5832b18d96b41b62e0081d491c57e3c6b2"
+    },
+    {
+      "storyId": 39,
+      "title": "Le thé devient aussi un remède",
+      "article": "https://en.wikipedia.org/wiki/Eisai",
+      "candidate": "Myoan-Eisai-Kennin-ji-Portrait.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Myoan-Eisai-Kennin-ji-Portrait.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "251b8bd92bc6091c65be21a3bd746cc329cd09c6377c43a3f45ebec7017a49e8"
+    },
+    {
+      "storyId": 40,
+      "title": "Le Dit des Heike garde la mémoire des vaincus",
+      "article": "https://en.wikipedia.org/wiki/The_Tale_of_the_Heike",
+      "candidate": "Kano_school,_detail_of_Screen_with_Scenes_from_the_Tales_of_Heike,_Clark_Center_for_Japanese_Art.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kano%20school%2C%20detail%20of%20Screen%20with%20Scenes%20from%20the%20Tales%20of%20Heike%2C%20Clark%20Center%20for%20Japanese%20Art.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "26c5f9e0e4579829d9b581b3d451fdacd4b4a681f70f970419c1bce44fe17ae7"
+    },
+    {
+      "storyId": 41,
+      "title": "Jōkyū : la cour affronte le shogunat",
+      "article": "https://en.wikipedia.org/wiki/J%C5%8Dky%C5%AB_War",
+      "candidate": "Jōkyū War Memorial Service Pagoda in Butsuganin - 3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:J%C5%8Dky%C5%AB%20War%20Memorial%20Service%20Pagoda%20in%20Butsuganin%20-%203.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "78e175b1dc2691aa4b895783a40bc0adcf39936c6b9856b85c9519b376bb60b7"
+    },
+    {
+      "storyId": 42,
+      "title": "Deux cours revendiquent le trône",
+      "article": "https://en.wikipedia.org/wiki/Nanboku-ch%C5%8D_period",
+      "candidate": "Nanbokucho-capitals.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nanbokucho-capitals.svg",
+      "license": "CC BY 2.5",
+      "sha256": "793573d7504d859d60d53ad7edafd57dfbbeaeb1baa5d5c4b20ae2e2326b6cb0"
+    },
+    {
+      "storyId": 43,
+      "title": "La guerre d’Ōnin dévaste Kyoto",
+      "article": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
+      "candidate": "Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "c01ed5deb65375c89066ee45f61f72b0e8d36243617d66730d3db0ac05d39a3f"
+    },
+    {
+      "storyId": 44,
+      "title": "Le Pavillon d’or, pouvoir et paysage",
+      "article": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+      "candidate": "Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Golden%20Pavilion%20Kinkaku-ji%20water%20mirror%202024.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "b336141e1d6c3d3229e8ec9db0f25cf37d995d69d1490349f21aaeb67972a357"
+    },
+    {
+      "storyId": 45,
+      "title": "Zeami fait du nō un art de la scène",
+      "article": "https://en.wikipedia.org/wiki/Zeami_Motokiyo",
+      "candidate": "Scene uit het Noh theaterstuk Nue Nue (titel op object) Honderd Noh spelen (serietitel) Nogaku hyakuban (serietitel op object), RP-P-2003-277.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Scene%20uit%20het%20Noh%20theaterstuk%20Nue%20Nue%20(titel%20op%20object)%20Honderd%20Noh%20spelen%20(serietitel)%20Nogaku%20hyakuban%20(serietitel%20op%20object)%2C%20RP-P-2003-277.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "d0ab4ee491ae6ae5f50c19c43f5bee718becb3e4d1c1012d6c7ff50c104a470b"
+    },
+    {
+      "storyId": 46,
+      "title": "Rennyo rassemble les fidèles du Hongan-ji",
+      "article": "https://en.wikipedia.org/wiki/Rennyo",
+      "candidate": "Rennyo5.1.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rennyo5.1.JPG",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "ab503ffa2542ded2e9c2a995cb11216fcbd4191d5371cdd195db46582fee180e"
+    },
+    {
+      "storyId": 47,
+      "title": "La cuisine monastique cultive la sobriété",
+      "article": "https://en.wikipedia.org/wiki/Buddhist_cuisine",
+      "candidate": "Fukuchiin shojin ryori appetizer.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fukuchiin%20shojin%20ryori%20appetizer.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "905aa92135bea009161e82f1deb04c4eacc27b0c5f073e2ec4da3e3651780dd5"
+    },
+    {
+      "storyId": 48,
+      "title": "Le royaume des Ryūkyū s’unifie",
+      "article": "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+      "candidate": "Naha Okinawa Japan Shuri-Castle-01.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naha%20Okinawa%20Japan%20Shuri-Castle-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "5ec40887c8d5f7249897951cf3a4df509871c9e3d63499964f4db085643e838b"
+    },
+    {
+      "storyId": 49,
+      "title": "Des armes à feu arrivent à Tanegashima",
+      "article": "https://en.wikipedia.org/wiki/Tanegashima_(gun)",
+      "candidate": "Strings_for_night_firing.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Strings%20for%20night%20firing.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "a313028b6c2ae3cb38ba8b2ec30178a9942db6dc441e5adaeea05bb3457c3706"
+    },
+    {
+      "storyId": 50,
+      "title": "François Xavier débarque à Kagoshima",
+      "article": "https://en.wikipedia.org/wiki/Francis_Xavier",
+      "candidate": "Franciscus_de_Xabier.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Franciscus%20de%20Xabier.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "dd7a3bc4ee519321c9781d52b6c327498f061ec8a3fdede387c4f5148dc8d762"
+    },
+    {
+      "storyId": 51,
+      "title": "Azuchi, un château pour un nouveau pouvoir",
+      "article": "https://en.wikipedia.org/wiki/Azuchi_Castle",
+      "candidate": "近江国蒲生郡安土城之.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E8%BF%91%E6%B1%9F%E5%9B%BD%E8%92%B2%E7%94%9F%E9%83%A1%E5%AE%89%E5%9C%9F%E5%9F%8E%E4%B9%8B.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "bd605c4b5c0fab0d0e1ce19ee6bc06fc846f02eb1ceb497262954d634dd826fa"
+    },
+    {
+      "storyId": 52,
+      "title": "Nagashino et la coordination des arquebuses",
+      "article": "https://en.wikipedia.org/wiki/Battle_of_Nagashino",
+      "candidate": "Battle-of-Nagashino-Map-Folding-Screen-1575.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Battle-of-Nagashino-Map-Folding-Screen-1575.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "198b2d424a29daf1a0af8002991751e1a0170d914e1c76ae7ef95b2a5cdfd75d"
+    },
+    {
+      "storyId": 53,
+      "title": "Honnō-ji : la chute de Nobunaga",
+      "article": "https://en.wikipedia.org/wiki/Honn%C5%8D-ji_Incident",
+      "candidate": "Honnoj.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honnoj.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "a26ce2117a1f77b70796ed083098107e5237e9d55ef942e4624af13635bc811e"
+    },
+    {
+      "storyId": 54,
+      "title": "La chasse aux sabres transforme la société",
+      "article": "https://en.wikipedia.org/wiki/Sword_hunt",
+      "candidate": "Portrait of Toyotomi Hideyoshi.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait%20of%20Toyotomi%20Hideyoshi.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3a18c1f7f0f12db1dc817ee083e1b2c6d1d4149730bb2524565ec41d6545a869"
+    },
+    {
+      "storyId": 55,
+      "title": "Odawara ouvre la voie à l’unification",
+      "article": "https://en.wikipedia.org/wiki/Siege_of_Odawara_(1590)",
+      "candidate": "Odawara_Castle_02.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Odawara%20Castle%2002.jpg",
+      "license": "CC BY 3.0",
+      "sha256": "c6aa4fa0ea1158a566dd3f427cbf093c8a6f6e3b9aa1311edbafd8dd36a7e999"
+    },
+    {
+      "storyId": 56,
+      "title": "Kanō Eitoku peint la grandeur",
+      "article": "https://en.wikipedia.org/wiki/Kan%C5%8D_Eitoku",
+      "candidate": "狩野永徳《檜図屏風》1590年、16世紀、桃山時代、東京国立博物館.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8B%A9%E9%87%8E%E6%B0%B8%E5%BE%B3%E3%80%8A%E6%AA%9C%E5%9B%B3%E5%B1%8F%E9%A2%A8%E3%80%8B1590%E5%B9%B4%E3%80%8116%E4%B8%96%E7%B4%80%E3%80%81%E6%A1%83%E5%B1%B1%E6%99%82%E4%BB%A3%E3%80%81%E6%9D%B1%E4%BA%AC%E5%9B%BD%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "f1560f39fc55db9ec617dbed30f0853e03b672814425c1dc70a803fe2b54e173"
+    },
+    {
+      "storyId": 57,
+      "title": "Sen no Rikyū et la voie du thé",
+      "article": "https://en.wikipedia.org/wiki/Sen_no_Riky%C5%AB",
+      "candidate": "Sen_no_Rikyu_JPN_(cropped).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sen%20no%20Rikyu%20JPN%20(cropped).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "4a9203c65ca6a297d58d89c2b23a05448456278cf08b5b66b3cb732af874f30a"
+    },
+    {
+      "storyId": 58,
+      "title": "Les rencontres nanban laissent des saveurs",
+      "article": "https://en.wikipedia.org/wiki/Castella",
+      "candidate": "Castella,made_in_nagasaki-city,japan.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Castella%2Cmade%20in%20nagasaki-city%2Cjapan.JPG",
+      "license": "CC BY-SA 3.0",
+      "sha256": "086a55d2060d788610e66bc190db0a8e1aa8d986f7d4f5c07cf6d539f5a3f6aa"
+    },
+    {
+      "storyId": 59,
+      "title": "Les vingt-six martyrs de Nagasaki",
+      "article": "https://en.wikipedia.org/wiki/26_Martyrs_of_Japan",
+      "candidate": "Martyrdom-of-Paul-Miki-and-Companions-in-Nagasaki-(made-c1635).png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Martyrdom-of-Paul-Miki-and-Companions-in-Nagasaki-(made-c1635).png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "d7733867db05eb13d6d087e749f7d17f8023146b0e16947cdee2f9650256fbc2"
+    },
+    {
+      "storyId": 60,
+      "title": "Le shogunat Tokugawa s’installe à Edo",
+      "article": "https://en.wikipedia.org/wiki/Tokugawa_shogunate",
+      "candidate": "Map_of_Japan_in_Provinces_in_time_of_Iyeyasu.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Map%20of%20Japan%20in%20Provinces%20in%20time%20of%20Iyeyasu.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "21fdfa6e6f7924fc1b7ed4306bbe6469531b00b4c531af275906ef56f1073c04"
+    },
+    {
+      "storyId": 61,
+      "title": "Le siège d’Osaka met fin aux Toyotomi",
+      "article": "https://en.wikipedia.org/wiki/Siege_of_Osaka",
+      "candidate": "Osakarakuzyou_(cropped).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Osakarakuzyou%20(cropped).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "1c49de6d09badb099cea2442ced8fc45a322a44aac7fda0cbd4fff4e435a70b7"
+    },
+    {
+      "storyId": 62,
+      "title": "Le sankin kōtai rythme la vie des domaines",
+      "article": "https://en.wikipedia.org/wiki/Sankin-k%C5%8Dtai",
+      "candidate": "Tokugawa_Seiseiroku_001.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tokugawa%20Seiseiroku%20001.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "f0a17a0adb2dd272814e33ee84947d941e0d75bd3a98f28421c8a3660912d400"
+    },
+    {
+      "storyId": 63,
+      "title": "Nikkō fait d’Ieyasu une présence sacrée",
+      "article": "https://en.wikipedia.org/wiki/Nikk%C5%8D_T%C5%8Dsh%C5%8D-g%C5%AB",
+      "candidate": "200801_Nikko_Tosho-gu_Nikko_Japan03s3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:200801%20Nikko%20Tosho-gu%20Nikko%20Japan03s3.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "dc5f5d612cfa122494f6ae835f07fcf921877b31b7b385aacc2b8c418d1b94c4"
+    },
+    {
+      "storyId": 64,
+      "title": "Bashō part vers le Nord profond",
+      "article": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "candidate": "Basho_by_Hokusai-small.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Basho%20by%20Hokusai-small.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "2ce85e4f5ededfc599901a289bc63f81b103742c8fe39cc9d3fe0f6fde98eb5c"
+    },
+    {
+      "storyId": 65,
+      "title": "Osaka invente une scène de marionnettes",
+      "article": "https://en.wikipedia.org/wiki/Bunraku",
+      "candidate": "Osonowiki.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Osonowiki.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "e3af75bd4ee772b90ae5af9089b1c9e705fe0ffd102fde8c7b60c696fe8f06ab"
+    },
+    {
+      "storyId": 66,
+      "title": "Osaka, entre entrepôts de riz et cuisine",
+      "article": "https://en.wikipedia.org/wiki/D%C5%8Djima_Rice_Exchange",
+      "candidate": "Dojima_komeichiba.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dojima%20komeichiba.jpg",
+      "license": "CC0 1.0",
+      "sha256": "e5951848b07b98197301a109f189c1f278f3920da6e299efba021c835ec58efe"
+    },
+    {
+      "storyId": 67,
+      "title": "Les Ryūkyū sous une double relation",
+      "article": "https://en.wikipedia.org/wiki/Invasion_of_Ryukyu",
+      "candidate": "Ryukyu_orthographic.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ryukyu%20orthographic.svg",
+      "license": "CC BY 3.0",
+      "sha256": "8722ae9361e6c5c1ad6b427d0108f20c47289e43ed20ffd6d5ebca2c5f4a023b"
+    },
+    {
+      "storyId": 68,
+      "title": "Shimabara : révolte et répression",
+      "article": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+      "candidate": "Shimabara-Battle-Map-c17th-century.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shimabara-Battle-Map-c17th-century.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5a01ff9e158dcf306dcb685e35f08f9bc2f7bcd24044ed6d0978e863c6c5779c"
+    },
+    {
+      "storyId": 69,
+      "title": "Les domaines cèdent la place aux préfectures",
+      "article": "https://en.wikipedia.org/wiki/Abolition_of_the_han_system",
+      "candidate": "Emperor Meiji by Takahashi Yuichi.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Meiji%20by%20Takahashi%20Yuichi.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "8d793e0bb828e7c605f94bbdb5e83fcaf972ea6cd57c17712f5a9e8c5cfdad1b"
+    },
+    {
+      "storyId": 70,
+      "title": "La guerre de Boshin atteint le Nord",
+      "article": "https://en.wikipedia.org/wiki/Boshin_War",
+      "candidate": "UenoSenso.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:UenoSenso.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "b5a00604ac2b6c31be7880ee7ea1b12f584dc4521d899251d4cd3dfbf37bb2b1"
+    },
+    {
+      "storyId": 71,
+      "title": "La rébellion de Satsuma",
+      "article": "https://en.wikipedia.org/wiki/Satsuma_Rebellion",
+      "candidate": "Satsuma_rebeliion.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Satsuma%20rebeliion.svg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "918486786a73aa69666bdffd1b8f7ce16a21ee1710fbc80cdcfdf5c8b6a4bde3"
+    },
+    {
+      "storyId": 72,
+      "title": "Séparer les kami et les bouddhas",
+      "article": "https://en.wikipedia.org/wiki/Shinbutsu_bunri",
+      "candidate": "Turu_daitoz.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Turu%20daitoz.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "9ed272bd74fa105be1b9efe31fea7e76c4bd23e2bafd3eead1a670d7cb9bb133"
+    },
+    {
+      "storyId": 73,
+      "title": "Le premier chemin de fer public",
+      "article": "https://en.wikipedia.org/wiki/History_of_rail_transport_in_Japan",
+      "candidate": "1918_Toppan_Printing_Co._Map_of_Japanese_Railways.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1918%20Toppan%20Printing%20Co.%20Map%20of%20Japanese%20Railways.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "33c99715ae423c28d31b20b56e7c5143e71d4a522599ecbdbdf4c77e3f1df5bd"
+    },
+    {
+      "storyId": 74,
+      "title": "L’art japonais rencontre les expositions universelles",
+      "article": "https://en.wikipedia.org/wiki/1873_Vienna_World's_Fair",
+      "candidate": "W_Rotunde.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:W%20Rotunde.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "7f1bea29b2603d2a294cf41225324bd276fc93168f5d9b4d66ddfafb47284e99"
+    },
+    {
+      "storyId": 75,
+      "title": "Viande, lait et nouvelles habitudes",
+      "article": "https://en.wikipedia.org/wiki/Y%C5%8Dshoku",
+      "candidate": "Hayashi_rice.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hayashi%20rice.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "ee7c3aabf2d12f9821548314b368bfd4ee172b91d1dfc87bfa2f7d60b3c19040"
+    },
+    {
+      "storyId": 76,
+      "title": "La constitution de Meiji est promulguée",
+      "article": "https://en.wikipedia.org/wiki/Meiji_Constitution",
+      "candidate": "Meiji-Constitution-Empire-of-Japan.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meiji-Constitution-Empire-of-Japan.png",
+      "license": "CC BY 4.0",
+      "sha256": "779f8860be888917daf93b95cd003006eafd3b0b3608ef913a78460ca4acb926"
+    },
+    {
+      "storyId": 77,
+      "title": "Okinawa remplace le royaume des Ryūkyū",
+      "article": "https://en.wikipedia.org/wiki/Ryukyu_Disposition",
+      "candidate": "Cartoon_of_Ryukyu_Shobun_from_Marumaru_Chinbun_1879-05-24.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cartoon%20of%20Ryukyu%20Shobun%20from%20Marumaru%20Chinbun%201879-05-24.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3a67751694082ca0c81f69d3e60d25c5c0852d0e14dc0b18617bdb5e010287a9"
+    },
+    {
+      "storyId": 78,
+      "title": "Un cabinet issu du monde des partis",
+      "article": "https://en.wikipedia.org/wiki/Hara_Takashi",
+      "candidate": "Takashi_Hara_formal.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Takashi%20Hara%20formal.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5e2cf0cb5a2fee35a810578e7b591aaa6fcf6e9e51d235cd17e124465fde084e"
+    },
+    {
+      "storyId": 79,
+      "title": "Le Japon entre dans la Première Guerre mondiale",
+      "article": "https://en.wikipedia.org/wiki/Japan_during_World_War_I",
+      "candidate": "Young Japan. Postcard depicting the friendship between Britain and Japan during World War I. FL10286813.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Young%20Japan.%20Postcard%20depicting%20the%20friendship%20between%20Britain%20and%20Japan%20during%20World%20War%20I.%20FL10286813.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "bb7a91bc3a889a753c22081b84ce91d270194856ac13178ef538e17806a9afca"
+    },
+    {
+      "storyId": 80,
+      "title": "Le sanctuaire Meiji ouvre ses portes",
+      "article": "https://en.wikipedia.org/wiki/Meiji_Shrine",
+      "candidate": "Meiji_Jingu_2023-3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meiji%20Jingu%202023-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "aa66db343f72e467ea308a2fb3feea30a5babc9ddfca963b720ac1d43c48d4d3"
+    },
+    {
+      "storyId": 81,
+      "title": "Akutagawa renouvelle le récit bref",
+      "article": "https://en.wikipedia.org/wiki/Rash%C5%8Dmon_(short_story)",
+      "candidate": "Rashomon (cover).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rashomon%20(cover).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "1585347d4a20aad54e460d1aa661f4f352ad85c670450b99b239d40c01c76d36"
+    },
+    {
+      "storyId": 82,
+      "title": "Les émeutes du riz secouent le pays",
+      "article": "https://en.wikipedia.org/wiki/Rice_riots_of_1918",
+      "candidate": "Burning_of_the_Okayama_Seimai,_1918_rice_riots.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Burning%20of%20the%20Okayama%20Seimai%2C%201918%20rice%20riots.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "9f339c671845e7e61c932b362bf22ab644886e735216f24728c02e8aee4c4d19"
+    },
+    {
+      "storyId": 83,
+      "title": "Le grand séisme du Kantō",
+      "article": "https://en.wikipedia.org/wiki/1923_Great_Kant%C5%8D_earthquake",
+      "candidate": "The_Great_Kanto_Earthquake_(3767766524)_(cropped).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The%20Great%20Kanto%20Earthquake%20(3767766524)%20(cropped).jpg",
+      "license": "CC BY 2.0",
+      "sha256": "69d466b48e6d2c47d500e27c26eee1ebbfcb56de04d7a21f639de2be47bebc2c"
+    },
+    {
+      "storyId": 84,
+      "title": "Le suffrage masculin s’élargit",
+      "article": "https://en.wikipedia.org/wiki/General_Election_Law",
+      "candidate": "1928 Japanese General Election Poster.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1928%20Japanese%20General%20Election%20Poster.JPG",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "ec859f710d73daeb66448802657091525bcd4515ef6474872ab8e0002886aeeb"
+    },
+    {
+      "storyId": 85,
+      "title": "Le lycée se raconte au baseball",
+      "article": "https://en.wikipedia.org/wiki/Japanese_High_School_Baseball_Championship",
+      "candidate": "Ceremonial_First_Pitch_1915.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ceremonial%20First%20Pitch%201915.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "297792acf6b143a738f0a136d1fbd50f1202599a99b4650f748d2ff71cb88b54"
+    },
+    {
+      "storyId": 86,
+      "title": "Le cinéma japonais explore l’animation",
+      "article": "https://en.wikipedia.org/wiki/History_of_anime",
+      "candidate": "Anime cell 1917.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anime%20cell%201917.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "04aeb4185857ba8c5e751b0947b90e87b312c34b2da92c9f2dd8a28bd45b41f2"
+    },
+    {
+      "storyId": 87,
+      "title": "Une constitution entre en vigueur",
+      "article": "https://en.wikipedia.org/wiki/Constitution_of_Japan",
+      "candidate": "Nihon_Kenpo01.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nihon%20Kenpo01.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "1b40b0ff70372033ee532d7194506cc435bb7cbefbcd8e0a487e9a4a19124eb8"
+    },
+    {
+      "storyId": 88,
+      "title": "La guerre s’étend depuis la Mandchourie",
+      "article": "https://en.wikipedia.org/wiki/Mukden_incident",
+      "candidate": "Mukden_1931_japan_shenyang.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mukden%201931%20japan%20shenyang.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "e5df8f3fe6e5a394c24a0917f6619abc92be9f1db22ee610e8159b30af428de8"
+    },
+    {
+      "storyId": 89,
+      "title": "Okinawa, une bataille parmi les civils",
+      "article": "https://en.wikipedia.org/wiki/Battle_of_Okinawa",
+      "candidate": "Ww2_158.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ww2%20158.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "65243ddeb43a8414148eb525e44e992cf3c52c747ea9686b8bde907ca2bfb8c9"
+    },
+    {
+      "storyId": 90,
+      "title": "L’État se sépare de l’organisation du shintō",
+      "article": "https://en.wikipedia.org/wiki/Shinto_Directive",
+      "candidate": "NDL9885515 SCAPIN-448- ABOLITION OF GOVERNMENTAL SPONSORSHIP, SUPPORT, PERPETUATION, CONTROL AND DISSEMINATION OF STATE SHINTO (KO....pdf",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NDL9885515%20SCAPIN-448-%20ABOLITION%20OF%20GOVERNMENTAL%20SPONSORSHIP%2C%20SUPPORT%2C%20PERPETUATION%2C%20CONTROL%20AND%20DISSEMINATION%20OF%20STATE%20SHINTO%20(KO....pdf",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "e23246bce8f8487dd81cd497d1bf8b4ecdd6980067088ade1e83ff06051b1f90"
+    },
+    {
+      "storyId": 91,
+      "title": "Tokyo accueille les Jeux olympiques",
+      "article": "https://en.wikipedia.org/wiki/1964_Summer_Olympics",
+      "candidate": "Tokyo_1964_Summer_Olympics_logo.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tokyo%201964%20Summer%20Olympics%20logo.svg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "89516f2d99f280b97703ff516c6209cfae62394cd1859a23a336a288863c97b1"
+    },
+    {
+      "storyId": 92,
+      "title": "Kurosawa filme les Sept Samouraïs",
+      "article": "https://en.wikipedia.org/wiki/Seven_Samurai",
+      "candidate": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5fcd2a34d3d4a661e5c6929cae75f160a02021d7330eb32fcd7441672a778f55"
+    },
+    {
+      "storyId": 93,
+      "title": "Les nouilles instantanées changent d’échelle",
+      "article": "https://en.wikipedia.org/wiki/Momofuku_Ando",
+      "candidate": "安藤百福肖像.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%AE%89%E8%97%A4%E7%99%BE%E7%A6%8F%E8%82%96%E5%83%8F.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "3cf454f40904d69a24a98c9893e40242e3b40b3b40579a4841f4cb9097d0e833"
+    },
+    {
+      "storyId": 94,
+      "title": "La souveraineté est restaurée, avec des exceptions",
+      "article": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco",
+      "candidate": "Yoshida_signs_San_Francisco_Peace_Treaty.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yoshida%20signs%20San%20Francisco%20Peace%20Treaty.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "60db0998cdf82e854ddd1de14e40a2b356a2963a4728b595e5cb7a48d7004963"
+    },
+    {
+      "storyId": 95,
+      "title": "Okinawa revient à l’administration japonaise",
+      "article": "https://en.wikipedia.org/wiki/1971_Okinawa_Reversion_Agreement",
+      "candidate": "President Nixon and Prime Minister Eisaku Sato of Japan at San Clemente - NARA - 194752.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:President%20Nixon%20and%20Prime%20Minister%20Eisaku%20Sato%20of%20Japan%20at%20San%20Clemente%20-%20NARA%20-%20194752.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "7eaeb85ad34baf1c0dc1330347cd5faf084e35f7f2cf2472ff5ec8f1fabece0a"
+    },
+    {
+      "storyId": 96,
+      "title": "Heisei commence après la mort de Hirohito",
+      "article": "https://en.wikipedia.org/wiki/Heisei",
+      "candidate": "Emperor_Akihito_199011_1.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Akihito%20199011%201.jpg",
+      "license": "CC BY 4.0",
+      "sha256": "46a8760a284b876727c7ce02cfc5da8257e92ac0ab60825b5dfdaca2f3b74e2e"
+    },
+    {
+      "storyId": 97,
+      "title": "La mémoire des bombardements se transmet",
+      "article": "https://en.wikipedia.org/wiki/Hibakusha",
+      "candidate": "Genbaku Dome04-r.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Genbaku%20Dome04-r.JPG",
+      "license": "CC BY 2.5",
+      "sha256": "7f8d989ee28a758401feb763e68047f38ee181d6d9c15c3cb304b8930581d4dc"
+    },
+    {
+      "storyId": 98,
+      "title": "Ise reconstruit pour transmettre",
+      "article": "https://en.wikipedia.org/wiki/Ise_Grand_Shrine",
+      "candidate": "Naiku_04.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naiku%2004.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "41ca0da83f2052ed960db8ef24498e7c37f412058cde48fd1bc4ebf13839e2f1"
+    },
+    {
+      "storyId": 99,
+      "title": "Le séisme de Kobe révèle de nouvelles solidarités",
+      "article": "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake",
+      "candidate": "Hanshin-Awaji_earthquake_1995_337.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hanshin-Awaji%20earthquake%201995%20337.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "38a5ea6f9aaea49285a9c4050303ae8ce435ac63a842614a01d3e782e5d74e35"
+    },
+    {
+      "storyId": 100,
+      "title": "Le Tōhoku face au séisme et au tsunami",
+      "article": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami",
+      "candidate": "SH-60B_helicopter_flies_over_Sendai.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SH-60B%20helicopter%20flies%20over%20Sendai.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "60d890a9c9bed6d4fbfba8160b768496baf13b077c5b9b7e6073786ec0cb9796"
+    },
+    {
+      "storyId": 101,
+      "title": "Le washoku entre au patrimoine immatériel",
+      "article": "https://en.wikipedia.org/wiki/Washoku",
+      "candidate": "Oseti.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Oseti.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "9d6fdcec0219773cb71c95c741292f2a2905422abc718d977ac34a052b8d311b"
+    },
+    {
+      "storyId": 102,
+      "title": "Le Voyage de Chihiro traverse les frontières",
+      "article": "https://en.wikipedia.org/wiki/Spirited_Away",
+      "candidate": "HayaoMiyazakiCCJuly09.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg",
+      "license": "CC BY 2.0",
+      "sha256": "c94b00254cc2d26918614bddcc4e89be64d3571968a38757be5b1c258e9edb19"
+    },
+    {
+      "storyId": 103,
+      "title": "Une abdication ouvre l’ère Reiwa",
+      "article": "https://en.wikipedia.org/wiki/2019_Japanese_imperial_transition",
+      "candidate": "Emperor Akihito (2016).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Akihito%20(2016).jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "063b281df14e04f689a90222b23220340b02ee266fa80949bc8c6c66cfa825dc"
+    },
+    {
+      "storyId": 104,
+      "title": "Upopoy met les cultures aïnoues à l’honneur",
+      "article": "https://en.wikipedia.org/wiki/Upopoy",
+      "candidate": "National_Ainu_Museum_20260822a.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:National%20Ainu%20Museum%2020260822a.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "ca81699e3136c802f7234f9c6ee98ce149cbeccd6bb043099985488e35670829"
+    },
+    {
+      "storyId": 105,
+      "title": "Les provinces racontent leurs paysages",
+      "article": "https://en.wikipedia.org/wiki/Fudoki",
+      "candidate": "Bungonokuni Fudoki Kusu.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bungonokuni%20Fudoki%20Kusu.jpg",
+      "license": "CC0 1.0",
+      "sha256": "2171531ec9ee047849107fa04cfdac54302c07442131acb8c9593662e6638dd3"
+    },
+    {
+      "storyId": 106,
+      "title": "Le Kaifūsō fait dialoguer les poètes avec la Chine",
+      "article": "https://en.wikipedia.org/wiki/Kaif%C5%ABs%C5%8D",
+      "candidate": "NAJDA-215-0001 懐風藻.pdf",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NAJDA-215-0001%20%E6%87%90%E9%A2%A8%E8%97%BB.pdf",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "9de3d44ba1352bff823913428afe8045afdd1ffadf65ff83170bf547d0059fed"
+    },
+    {
+      "storyId": 107,
+      "title": "Gagaku : la cour écoute les musiques du continent",
+      "article": "https://en.wikipedia.org/wiki/Gagaku",
+      "candidate": "Gagaku orchestra01.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gagaku%20orchestra01.JPG",
+      "license": "CC BY-SA 3.0",
+      "sha256": "4d04af4d02a0bf0e844600f3184acdafc0324de61b6be3fcf7f36a889d902450"
+    },
+    {
+      "storyId": 108,
+      "title": "Le Tōshōdai-ji, témoin d’une circulation des savoirs",
+      "article": "https://en.wikipedia.org/wiki/T%C5%8Dsh%C5%8Ddai-ji",
+      "candidate": "Toshodaiji-GoldenHall(NT).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Toshodaiji-GoldenHall(NT).jpg",
+      "license": "CC BY 4.0",
+      "sha256": "e49a3de7c6b15d0c11c199f8d924bf322a1a803b08b9848cc4759cb6270520fc"
+    },
+    {
+      "storyId": 109,
+      "title": "Sous les cerisiers de l’empereur Saga",
+      "article": "https://en.wikipedia.org/wiki/Hanami",
+      "candidate": "Shinsenen Kyoto Japan07s3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shinsenen%20Kyoto%20Japan07s3.jpg",
+      "license": "CC BY 2.5",
+      "sha256": "2266092307939b3ddcdddedee4858e4b6420d922ac398964e724c90731a9e6e5"
+    },
+    {
+      "storyId": 110,
+      "title": "Les vêtements de cour parlent en couleurs",
+      "article": "https://en.wikipedia.org/wiki/J%C5%ABnihitoe",
+      "candidate": "Junihitoe.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Junihitoe.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "adfd5808d2ce97e825bfe80b9fbaf99cf52d270eaa1684505389606737c9a17d"
+    },
+    {
+      "storyId": 111,
+      "title": "À Uji, une résidence devient le Byōdō-in",
+      "article": "https://en.wikipedia.org/wiki/By%C5%8Dd%C5%8D-in",
+      "candidate": "Phoenix_Hall,_Byodo-in,_November_2016_-01.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Phoenix%20Hall%2C%20Byodo-in%2C%20November%202016%20-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "a22f0f816fae30bc7454cf86e1a298247804d58b157405445ebb806261514113"
+    },
+    {
+      "storyId": 112,
+      "title": "Les chansons imayō entrent dans une anthologie",
+      "article": "https://en.wikipedia.org/wiki/Ry%C5%8Djin_Hish%C5%8D",
+      "candidate": "Emperor Goshirakawa,myōhōin.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Emperor%20Goshirakawa%2Cmy%C5%8Dh%C5%8Din.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "c0efb7d917dd19d6ce1bb4ecd2cb5c3bf54cbe2d5a61394564e33c6355624461"
+    },
+    {
+      "storyId": 113,
+      "title": "Une cabane pour réfléchir aux catastrophes",
+      "article": "https://en.wikipedia.org/wiki/H%C5%8Dj%C5%8Dki",
+      "candidate": "Hojyoki codex Daifukukohji.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hojyoki%20codex%20Daifukukohji.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "a946c4dbc3cbddfe955226c50a52c182973e9994bb13df2bc789d02a56b6eb51"
+    },
+    {
+      "storyId": 114,
+      "title": "Cent poètes réunis autour d’Ogura",
+      "article": "https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu",
+      "candidate": "Hyakuninisshu_001.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hyakuninisshu%20001.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "92d810cf3cbbf4e4afd555c6d9b4d362499acc8e98ec127acbc02e9961ccf2dc"
+    },
+    {
+      "storyId": 115,
+      "title": "Le bois sculpté devient un objet du quotidien",
+      "article": "https://en.wikipedia.org/wiki/Kamakura-bori",
+      "candidate": "KamakuraBori.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KamakuraBori.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "6d0eeb5ab2f6db020af87798a38ebc1dc816825414f0f48f85b66062d23d70a3"
+    },
+    {
+      "storyId": 116,
+      "title": "Un guerrier met son histoire en images",
+      "article": "https://en.wikipedia.org/wiki/M%C5%8Dko_Sh%C5%ABrai_Ekotoba",
+      "candidate": "Mokoshuraiekotoba.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mokoshuraiekotoba.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "482c945dbe61c4237d2a37079a7e4f52a0b64400521f105cf54ced991dc0b589"
+    },
+    {
+      "storyId": 117,
+      "title": "Le kyōgen fait entendre le rire ordinaire",
+      "article": "https://en.wikipedia.org/wiki/Ky%C5%8Dgen",
+      "candidate": "Himeji-jo_Takigi_Nou_39_37.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Himeji-jo%20Takigi%20Nou%2039%2037.jpg",
+      "license": "CC BY 3.0",
+      "sha256": "4c8ed07235a8494a363bce10717eb2bb1011372f2d02e392769a3b350b73dd1a"
+    },
+    {
+      "storyId": 118,
+      "title": "Ikenobō Senkei compose avec les fleurs",
+      "article": "https://en.wikipedia.org/wiki/Ikenob%C5%8D",
+      "candidate": "挿花百規-11.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%8C%BF%E8%8A%B1%E7%99%BE%E8%A6%8F-11.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "4248227a07275e8e0a2c66e214875862e2520c19530299a8ee984cf97e5ceec9"
+    },
+    {
+      "storyId": 119,
+      "title": "À Minase, trois poètes construisent un même poème",
+      "article": "https://en.wikipedia.org/wiki/Renga",
+      "candidate": "Yoshitoshi Sogi.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yoshitoshi%20Sogi.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "5704fcc83e53f2d6fd0627b742de201c6dcf81e9361b698bb3e8428a5de7e0b0"
+    },
+    {
+      "storyId": 120,
+      "title": "Le Pavillon d’argent raconte une autre élégance",
+      "article": "https://en.wikipedia.org/wiki/Ginkaku-ji",
+      "candidate": "Ginkakuji_Kyoto03-r.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ginkakuji%20Kyoto03-r.jpg",
+      "license": "CC BY 2.5",
+      "sha256": "81fc602c1d622f481e5e8aa07b41e011302dc4eb1612f05525bca420fb5c9dd8"
+    },
+    {
+      "storyId": 121,
+      "title": "Quatre jeunes ambassadeurs prennent la mer",
+      "article": "https://en.wikipedia.org/wiki/Tensh%C5%8D_embassy",
+      "candidate": "First_Japanese_Embassy_to_Europe_1586.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:First%20Japanese%20Embassy%20to%20Europe%201586.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "0248ffe8f2dde8c88c272095936a70d5797676526bafb2aa3a3a6318a847de9e"
+    },
+    {
+      "storyId": 122,
+      "title": "Le Jurakudai met le prestige en scène",
+      "article": "https://en.wikipedia.org/wiki/Jurakudai",
+      "candidate": "Jurakudai-Palace-Kyoto-Folding-Screen.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jurakudai-Palace-Kyoto-Folding-Screen.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "a8758a42418c1c8d739dd94ea51200532d6efaed7b944bd769a1664a42819c81"
+    },
+    {
+      "storyId": 123,
+      "title": "Les fours de Mino expérimentent le blanc Shino",
+      "article": "https://en.wikipedia.org/wiki/Shino_ware",
+      "candidate": "Tea_Bowl_known_as_'Furisode',_Mino_ware,_Shino_type,_Azuchi-Momoyama_to_Edo_period,_16th-17th_century_-_Tokyo_National_Museum_-_DSC05893.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tea%20Bowl%20known%20as%20'Furisode'%2C%20Mino%20ware%2C%20Shino%20type%2C%20Azuchi-Momoyama%20to%20Edo%20period%2C%2016th-17th%20century%20-%20Tokyo%20National%20Museum%20-%20DSC05893.JPG",
+      "license": "CC0 1.0",
+      "sha256": "7c3d46a2835ac0e257bbbd8ec6f73e0cd4e67935f521013141b877ac918e43cb"
+    },
+    {
+      "storyId": 124,
+      "title": "Daigo accueille un grand hanami",
+      "article": "https://en.wikipedia.org/wiki/Daigo-ji",
+      "candidate": "DaigojiPagoda3242.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DaigojiPagoda3242.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "04cb4d7ab6d4b0f31a84306585c9b1df6527e863062b959a35f678606ecfb0fd"
+    },
+    {
+      "storyId": 125,
+      "title": "Okuni danse sur les scènes de Kyoto",
+      "article": "https://en.wikipedia.org/wiki/Izumo_no_Okuni",
+      "candidate": "Okuni_kabuki_byobu-zu_cropped_and_enhanced.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Okuni%20kabuki%20byobu-zu%20cropped%20and%20enhanced.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "1838efe8764a019db0a874ec93bc3e41550ba0c1b082be5e791b85f7b453e001"
+    },
+    {
+      "storyId": 126,
+      "title": "Saikaku raconte les plaisirs des villes",
+      "article": "https://en.wikipedia.org/wiki/Ihara_Saikaku",
+      "candidate": "Ihara-Saikaku-Portrait.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ihara-Saikaku-Portrait.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "11b02cade634c25e5375b8d2819da17e1843e703828b22ac3425334e653a90a8"
+    },
+    {
+      "storyId": 127,
+      "title": "Harunobu multiplie les couleurs de l’estampe",
+      "article": "https://en.wikipedia.org/wiki/Suzuki_Harunobu",
+      "candidate": "Harunobu_2_Pers.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Harunobu%202%20Pers.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "217f1bc1d1b3fb25afae975e7cfa2ebbbe1831c793ee0eade2dc257a1e240304"
+    },
+    {
+      "storyId": 128,
+      "title": "Les carnets dessinés de Hokusai circulent",
+      "article": "https://en.wikipedia.org/wiki/Hokusai_Manga",
+      "candidate": "Hokusai-MangaBathingPeople.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hokusai-MangaBathingPeople.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "b64135e457917caf9e40c8a5d297218c653155c4929c2741fd155b5906e666e9"
+    },
+    {
+      "storyId": 129,
+      "title": "Un musée ouvre une nouvelle relation aux objets",
+      "article": "https://en.wikipedia.org/wiki/Tokyo_National_Museum",
+      "candidate": "Tokyo_National_Museum,_Honkan_2010.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tokyo%20National%20Museum%2C%20Honkan%202010.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "83ea91e2fc9eb41023c3ea63e9b25b759d49a36c35afe456259005ebb3975087"
+    },
+    {
+      "storyId": 130,
+      "title": "La presse gagne de nouveaux lecteurs",
+      "article": "https://en.wikipedia.org/wiki/Yomiuri_Shimbun",
+      "candidate": "First-Issue-Yomiuri-Shimbun-Front-November-2-1874.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:First-Issue-Yomiuri-Shimbun-Front-November-2-1874.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "4a5d843db828f38a5015e439ff89aebebe107a99e0e41668fc5122cee5fed02c"
+    },
+    {
+      "storyId": 131,
+      "title": "Asakusa accueille un cinéma permanent",
+      "article": "https://en.wikipedia.org/wiki/Denkikan",
+      "candidate": "Denkikan_1914_-_tokyo.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Denkikan%201914%20-%20tokyo.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "317ad1f8a54a0d12c7402af1828eaba28e88ff78bbd3791d3650eabd4be3cb20"
+    },
+    {
+      "storyId": 132,
+      "title": "Un chat observe la société de Meiji",
+      "article": "https://en.wikipedia.org/wiki/I_Am_a_Cat",
+      "candidate": "I_AM_A_CAT_by_K._Ando.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:I%20AM%20A%20CAT%20by%20K.%20Ando.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "15d2dd543a42318f3ec39cdb923986b6d74df770fdcca328eca1a8e595ccc298"
+    },
+    {
+      "storyId": 133,
+      "title": "Takarazuka invente une autre scène musicale",
+      "article": "https://en.wikipedia.org/wiki/Takarazuka_Revue",
+      "candidate": "Takarazuka-nihongo.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Takarazuka-nihongo.svg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "b0800f663547f4d9b89fded852459eae188765bac761ecff5630a130ce4bf41c"
+    },
+    {
+      "storyId": 134,
+      "title": "Akai tori renouvelle la littérature pour enfants",
+      "article": "https://en.wikipedia.org/wiki/Miekichi_Suzuki",
+      "candidate": "Suzuki_Miekichi.JPG",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Suzuki%20Miekichi.JPG",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "41da18131a9c9cf9f448638669fbb92bba0b01e0475f6b4ee6981b69b5401bf7"
+    },
+    {
+      "storyId": 135,
+      "title": "Mavo bouscule les frontières entre les arts",
+      "article": "https://en.wikipedia.org/wiki/Mavo",
+      "candidate": "Cover_Mavo_n_3.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cover%20Mavo%20n%203.jpg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "2c215ec56f71a951b999718d7554a34882ecdf74e53f8fc201e13d0b3c095907"
+    },
+    {
+      "storyId": 136,
+      "title": "La radio entre dans les foyers",
+      "article": "https://en.wikipedia.org/wiki/NHK",
+      "candidate": "NHK_Broadcasting_Center_2016.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NHK%20Broadcasting%20Center%202016.jpg",
+      "license": "CC BY-SA 4.0",
+      "sha256": "f923edae40e7726fdf6517b021dc5265a782c13ffb0beec8e3852b9bb764d8dc"
+    },
+    {
+      "storyId": 137,
+      "title": "Une gymnastique partagée par les ondes",
+      "article": "https://en.wikipedia.org/wiki/Radio_calisthenics",
+      "candidate": "Rajiotaiso2013park.ogv",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajiotaiso2013park.ogv",
+      "license": "CC BY-SA 4.0",
+      "sha256": "5b93db433441863eb2004db995dc3d0bdeac996403842d1b28a62405b27c76c6"
+    },
+    {
+      "storyId": 138,
+      "title": "Kōhaku devient un rendez-vous de chanson",
+      "article": "https://en.wikipedia.org/wiki/K%C5%8Dhaku_Uta_Gassen",
+      "candidate": "NHK_Kouhaku_logo_2021.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NHK%20Kouhaku%20logo%202021.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "b78c2c9bed3425cbf1545989fc57646a10188a069760c0f01bbd92bbe2e8e2d1"
+    },
+    {
+      "storyId": 139,
+      "title": "Ultraman arrive sur le petit écran",
+      "article": "https://en.wikipedia.org/wiki/Ultraman_(1966_TV_series)",
+      "candidate": "Ultraman_logo.svg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ultraman%20logo.svg",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "e1a1c5cea720264c59149d7cc923345e9906ac4b36322dcfc1f34edf4cb0d6f1"
+    },
+    {
+      "storyId": 140,
+      "title": "La Famicom transforme le jeu à la maison",
+      "article": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+      "candidate": "NES-Console-Set.png",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
+      "license": "Domaine public (selon Commons)",
+      "sha256": "574a986f66edf150c77e452d30443904215f35b2a32b74af578147951ae9ab31"
+    },
+    {
+      "storyId": 141,
+      "title": "Kyoto entre au patrimoine mondial",
+      "article": "https://en.wikipedia.org/wiki/Historic_Monuments_of_Ancient_Kyoto",
+      "candidate": "Kinkakuji_2004-09-21.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kinkakuji%202004-09-21.jpg",
+      "license": "CC BY-SA 2.5",
+      "sha256": "5048474068dceb0b70a94008ce059b833c61b09b8305ddd8577e9b6f4f226847"
+    },
+    {
+      "storyId": 142,
+      "title": "Le bunraku est reconnu comme patrimoine vivant",
+      "article": "https://en.wikipedia.org/wiki/Bunraku",
+      "candidate": "Osonowiki.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Osonowiki.jpg",
+      "license": "CC BY-SA 3.0",
+      "sha256": "e3af75bd4ee772b90ae5af9089b1c9e705fe0ffd102fde8c7b60c696fe8f06ab"
+    },
+    {
+      "storyId": 143,
+      "title": "Les chars des fêtes relient patrimoine et quartiers",
+      "article": "https://en.wikipedia.org/wiki/Gion_Matsuri",
+      "candidate": "Yoiyama_-_The_Gion_Festival_-_July_14,_2008.jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yoiyama%20-%20The%20Gion%20Festival%20-%20July%2014%2C%202008.jpg",
+      "license": "CC BY-SA 2.0",
+      "sha256": "569f624153777d3bed54cbe06b0cf7a9b22440fbf4e7f01b7d6f0fd371fa8be3"
+    },
+    {
+      "storyId": 144,
+      "title": "Tokyo 2020 se tient en 2021",
+      "article": "https://en.wikipedia.org/wiki/2020_Summer_Olympics",
+      "candidate": "Japan National Stadium Tokyo 2020 Olympics (51481561365).jpg",
+      "status": "included",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Japan%20National%20Stadium%20Tokyo%202020%20Olympics%20(51481561365).jpg",
+      "license": "CC BY 2.0",
+      "sha256": "f3d194288ffc545237512d75abb639889296740970fa37efc03f2575b058c6f4"
+    }
+  ],
+  "summary": {
+    "total": 145,
+    "illustrated": 145,
+    "processedRecords": 145,
+    "searched": 145,
+    "byStatus": {
+      "included": 145
+    }
+  },
+  "visualReview": {
+    "reviewedAt": "2026-10-27T09:39:18.818977+00:00",
+    "status": "completed",
+    "narratives": 145,
+    "method": "Contrôle des 145 miniatures dans une galerie de navigateur ; contrôle séparé des derniers remplacements éditoriaux. Images locales décodées sans erreur.",
+    "contextSelections": "scripts/image-selections.json"
+  }
+}
