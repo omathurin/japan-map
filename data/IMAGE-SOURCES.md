@@ -2,7 +2,7 @@
 
 ## Current status
 
-All **145 narratives** now have a selected illustration, using **142 unique local raster files**. The current research log records an included, attributed Commons source for every story. The images were checked in a browser contact sheet; the final editorial replacements were reviewed separately. Every raster decoded successfully.
+All **200 narratives** now have a selected illustration, using **182 unique local raster files**. The current research log records an included, attributed Commons source for every story. The images were checked in a browser contact sheet; the final editorial replacements were reviewed separately. Every raster decoded successfully.
 
 The collection includes manuscript pages, historical artworks, maps, archival photographs, contemporary site photographs and clearly described context portraits. It does not claim that every illustration was created in the year of the narrative. Examples include a medieval copy of the Kojiki, a contemporary museum reconstruction of a Heian meal, a later print depicting nō, and a portrait of Miyazaki instead of a protected film still.
 
@@ -38,6 +38,8 @@ CC BY-SA applies to the licensed image and any adaptations covered by that licen
 
 ## Files and audit
 
-`src/image-manifest.js` contains the 145 selected images with source-rights metadata. `public/images/CREDITS.md` lists attribution and licence links for each unique local file. Downloaded rasters go in `public/images/`. `public/data/image-research.json` records each story's status, rejected/missing candidates, search failures, and inclusion metadata. Existing verified images are preserved if a later network request fails. Selected assets are reused without redownloading unchanged image files. The researcher uses the supported HTTPS proxy, spaces thumbnail requests, and backs off once on HTTP 429.
+`src/image-manifest.js` contains the 200 selected images with source-rights metadata. `public/images/CREDITS.md` lists attribution and licence links for each unique local file. Downloaded rasters go in `public/images/`. `public/data/image-research.json` records each story's status, rejected/missing candidates, search failures, and inclusion metadata. Existing verified images are preserved if a later network request fails. Selected assets are reused without redownloading unchanged image files. The researcher uses the supported HTTPS proxy, spaces thumbnail requests, and backs off once on HTTP 429.
 
-Before each publication, review contextual suitability and any remaining `candidate-needs-relevance-review` records. The current 145 records are all included. A portrait may illustrate its subject without showing the precise event described. Do not mark a record included merely to improve the coverage count. The offline build checks local image checksums and embeds the accepted assets. It fails rather than exceeding the 90 MiB standalone publication limit.
+Before each publication, review contextual suitability and any remaining `candidate-needs-relevance-review` records. The current 200 records are all included. A portrait may illustrate its subject without showing the precise event described. Do not mark a record included merely to improve the coverage count. The offline build checks local image checksums and embeds the accepted assets. It fails rather than exceeding the 90 MiB standalone publication limit.
+
+The 55 pre-710 narratives were reviewed in three browser contact sheets. Their captions distinguish museum copies, reconstructions, modern site photographs, later depictions and context-only documents. Archaeological dates and regional period boundaries are approximate.
